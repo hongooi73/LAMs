@@ -4,6 +4,7 @@
   "Description": "Uses the CAB to add LAMs.",	
   "Version": "0.666",
   "Author": "Belbarid",
+  "DependsOn" : [ "Expanded Arsenal", "CAB-CU", "CAB-IS Mech" ],
   "Manifest": [
     {
       "Type": "ChassisDef",
