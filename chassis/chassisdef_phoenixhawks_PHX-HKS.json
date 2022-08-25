@@ -39,7 +39,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "emod_armorslots_LAM",
+            "ComponentDefID": "emod_armorslots_LAM_2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -94,10 +94,10 @@
     "InitialTonnage": 18,
     "weightClass": "MEDIUM",
     "BattleValue": 4596000,
-    "Heatsinks": 30,
+    "Heatsinks": 45,
     "TopSpeed": 120,
     "TurnRadius": 90,
-    "MaxJumpjets": 5,
+    "MaxJumpjets": 6,
     "Stability": 130,
     "StabilityDefenses": [
         0,
