@@ -26,7 +26,7 @@
             "IsFixed": true
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_PartialWing_Generic_Standard50",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
@@ -91,7 +91,7 @@
     "PrefabIdentifier": "chrprfmech_phawklambase-001",
     "PrefabBase": "phawklam",
     "Tonnage": 50,
-    "InitialTonnage": 18,
+    "InitialTonnage": 20,
     "weightClass": "MEDIUM",
     "BattleValue": 4596000,
     "Heatsinks": 45,
