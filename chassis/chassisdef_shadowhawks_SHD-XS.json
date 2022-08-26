@@ -14,7 +14,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "emod_armorslots_LAM",
+            "ComponentDefID": "emod_armorslots_LAM_2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -56,7 +56,7 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Shadow Hawk LAM",
-        "Id": "chassisdef_shadowhawk_SHD-X2",
+        "Id": "chassisdef_shadowhawks_SHD-XS",
         "Name": "Shadow Hawk LAM",
         "Details": "The SHD-X2's featured a Newhart Extended Range Large Laser in place of the original SHD-2H's Autocannon. The X2's mounts a pair of right shoulder mounted Holly 5-tubed Long Range Missile Launchers with single ton of ammunition. For close range fighting the 'Mech has a Martel Model 5 medium laser in the right arm.",
         "Icon": "uixTxrIcon_shawklam"
@@ -67,10 +67,10 @@
     "PrefabIdentifier": "chrprfmech_shawklambase-001",
     "PrefabBase": "shawklam",
     "Tonnage": 55,
-    "InitialTonnage": 29,
+    "InitialTonnage": 23,
     "weightClass": "MEDIUM",
     "BattleValue": 5171000,
-    "Heatsinks": 30,
+    "Heatsinks": 45,
     "TopSpeed": 80,
     "TurnRadius": 90,
     "MaxJumpjets": 4,
@@ -119,6 +119,14 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Energy",
                     "Omni": false
                 },
@@ -145,6 +153,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
@@ -241,7 +253,7 @@
             "z": 2.5
         }
     ],
-    "VariantName": "SHD-X2",
+    "VariantName": "SHD-XS",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
