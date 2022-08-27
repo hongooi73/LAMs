@@ -67,7 +67,7 @@
     "PrefabIdentifier": "chrprfmech_wasplambase-001",
     "PrefabBase": "wasplam",
     "Tonnage": 30,
-    "InitialTonnage": 10.5,
+    "InitialTonnage": 13.5,
     "weightClass": "LIGHT",
     "BattleValue": 3749000,
     "Heatsinks": 0,

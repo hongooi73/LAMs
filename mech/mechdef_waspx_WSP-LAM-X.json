@@ -8,14 +8,16 @@
             "unit_ready",
             "unit_lance_vanguard",
             "unit_role_scout",
+            "elite_arsenal",
             "unit_role_scout",
             "unit_role_sniper",
             "unit_role_flanker",
-            "unit_very_rare"
+            "unit_very_rare",
+            "elite_arsenal"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_wasp_WSP-100B",
+    "ChassisID": "chassisdef_waspx_WSP-LAM-X",
     "HeraldryID": null,
     "Description": {
         "Cost": 4000000,
@@ -23,10 +25,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Wasp LAM",
-        "Id": "mechdef_wasp_WSP-100B",
-        "Name": "Wasp LAM",
-        "Details": "The Wasp LAM was a highly sought-after prize, and a jealously guarded commodity when most of the Wasp LAM production facilities were destroyed shortly after the start of the First Succession War. By the thirty-first century, the Wasp LAM was an exceedingly rare sight within the Inner Sphere.",
+        "UIName": "Wasp LAM X",
+        "Id": "mechdef_waspx_WSP-LAM-X",
+        "Name": "Wasp LAM X",
+        "Details": "The Wasp LAM was a highly sought-after prize, and a jealously guarded commodity when most of the Wasp LAM production facilities were destroyed shortly after the start of the First Succession War. By the thirty-first century, the Wasp LAM was an exceedingly rare sight within the Inner Sphere.<br><br>X-class mechs feature upgrades to their armour and defensive systems that improve their survivability on the 31st century battlefield.",
         "Icon": "uixTxrIcon_wasplam"
     },
     "simGameMechPartCost": 500000,
@@ -107,10 +109,10 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Standard",
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -174,7 +176,18 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_1-Maxell",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -185,7 +198,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_SRM_SRM2_STREAK",
+            "ComponentDefID": "Weapon_SRM_SRM2_STREAK_1",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
