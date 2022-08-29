@@ -1,19 +1,20 @@
 {
     "MechTags": {
         "items": [
+            "unit_mech_s_tier",
             "unit_jumpOK",
-            "unit_mech",
             "unit_medium",
             "unit_release",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
             "unit_role_scout",
             "unit_role_sniper",
             "unit_role_flanker",
-            "unit_very_rare",
-            "elite_arsenal"
+            "unit_very_rare"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_phoenixhawkx_PHX-HKX",
+    "ChassisID": "chassisdef_phoenixhawks_PHX-LAM-S",
     "HeraldryID": null,
     "Description": {
         "Cost": 6000000,
@@ -21,10 +22,10 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Phoenix Hawk LAM X",
-        "Id": "mechdef_phoenixhawkx_PHX-HKX",
-        "Name": "Phoenix Hawk LAM X",
-        "Details": "The Phoenix Hawk 1B LAM is a highly advanced 'Mech that was provided only to the SLDF's Royal Divisions. Allied Aerospace reworked their designs, learning from their mistakes with the PHX-HK1.<br><br>X-class mechs feature upgrades to their armour and defensive systems that improve their survivability on the 31st century battlefield.",
+        "UIName": "Phoenix Hawk LAM S",
+        "Id": "mechdef_phoenixhawks_PHX-LAM-S",
+        "Name": "Phoenix Hawk LAM S",
+        "Details": "The Phoenix Hawk LAM was the largest Land-Air 'Mech produced during the Star League. Allied Aerospace reworked their designs for conversion equipment and the size of the LAM, learning from their mistake with the Shadow Hawk LAM and the success of the Stinger LAM. The resulting LAM was the largest LAM ever constructed capable of remaining in AirMech mode. Unfortunately, large Land-Air 'Mech conversion technology was not fully researched before the fall of the Star League, and the Phoenix Hawk LAM frequently met its end due to the occasional glitch. The end of the Star League and destruction of the Allied Aerospace facilities at the beginning of the First Succession War prevented further development and refinement.",
         "Icon": "uixTxrIcon_phawklam"
     },
     "simGameMechPartCost": 1000000,
@@ -161,10 +162,10 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
@@ -172,7 +173,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_VSLLaser_1",
+            "ComponentDefID": "Weapon_Laser_VSLLaser_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -183,7 +184,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_1-MagnaVI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -194,7 +195,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_1-MagnaVI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -205,7 +206,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -216,7 +217,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

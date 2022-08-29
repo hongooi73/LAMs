@@ -1,17 +1,4 @@
 {
-    "Description": {
-        "Cost": 4200000,
-        "Rarity": 3,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Phoenix Hawk LAM",
-        "Id": "chassisdef_phoenixhawkx_PHX-HKX",
-        "Name": "Phoenix Hawk LAM",
-        "Details": "The Phoenix Hawk 1B LAM is a highly advanced 'Mech that was provided only to the SLDF's Royal Divisions. Allied Aerospace reworked their designs, learning from their mistakes with the PHX-HK1.",
-        "Icon": "uixTxrIcon_phawklam"
-    },
-    "MovementCapDefID": "movedef_phoenixhawklam",
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",
@@ -26,20 +13,8 @@
             "IsFixed": true
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_PartialWing_Generic_Standard50",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false,
-            "IsFixed": true
-        },
-        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "emod_armorslots_LAM_1",
+            "ComponentDefID": "emod_armorslots_LAM",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -62,42 +37,43 @@
             "IsFixed": true
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
-            "SimGameUID": "",
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_PartialWing_Generic_Standard55",
+            "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
-            "IsFixed": true,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_JumpJet_Vectored_Thrust_Kit",
-            "SimGameUID": "",
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "hasPrefabName": false,
+            "IsFixed": true
         }
     ],
+    "Description": {
+        "Cost": 5400000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Waneta",
+        "Id": "chassisdef_wanetas_WN-LAM-S",
+        "Name": "Waneta",
+        "Details": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser.",
+        "Icon": "uixTxrIcon_waneta"
+    },
+    "MovementCapDefID": "movedef_waneta",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_phawklam",
-    "PrefabIdentifier": "chrprfmech_phawklambase-001",
-    "PrefabBase": "phawklam",
-    "Tonnage": 50,
-    "InitialTonnage": 20,
+    "HardpointDataDefID": "hardpointdatadef_waneta",
+    "PrefabIdentifier": "chrprfmech_wanetabase-001",
+    "PrefabBase": "waneta",
+    "Tonnage": 55,
+    "InitialTonnage": 23.5,
     "weightClass": "MEDIUM",
-    "BattleValue": 4596000,
-    "Heatsinks": 30,
-    "TopSpeed": 120,
+    "BattleValue": 5171000,
+    "Heatsinks": 45,
+    "TopSpeed": 80,
     "TurnRadius": 90,
-    "MaxJumpjets": 6,
+    "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
         0,
@@ -113,13 +89,13 @@
     "Signature": 0,
     "Radius": 5,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 65,
-    "MeleeInstability": 50,
+    "MeleeDamage": 85,
+    "MeleeInstability": 55,
     "MeleeToHitModifier": 0,
-    "DFADamage": 65,
+    "DFADamage": 70,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 65,
-    "DFAInstability": 65,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
@@ -132,66 +108,57 @@
         },
         {
             "Location": "LeftArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 90,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 45
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 160,
-            "MaxRearArmor": 80,
-            "InternalStructure": 80
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 120,
-            "MaxRearArmor": 60,
-            "InternalStructure": 60
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
         },
         {
             "Location": "RightArm",
@@ -207,31 +174,35 @@
                 {
                     "WeaponMount": "AntiPersonnel",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 80,
+            "MaxArmor": 90,
             "MaxRearArmor": -1,
-            "InternalStructure": 40
+            "InternalStructure": 45
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 120,
+            "MaxArmor": 130,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 65
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 120,
+            "MaxArmor": 130,
             "MaxRearArmor": -1,
-            "InternalStructure": 60
+            "InternalStructure": 65
         }
     ],
     "LOSSourcePositions": [
@@ -242,12 +213,12 @@
         },
         {
             "x": 4,
-            "y": 14,
+            "y": 15,
             "z": 0
         },
         {
             "x": -4,
-            "y": 14,
+            "y": 15,
             "z": 0
         }
     ],
@@ -259,12 +230,12 @@
         },
         {
             "x": 4,
-            "y": 14,
+            "y": 15,
             "z": 0
         },
         {
             "x": -4,
-            "y": 14,
+            "y": 15,
             "z": 0
         },
         {
@@ -278,11 +249,11 @@
             "z": 2.5
         }
     ],
-    "VariantName": "PHX-HKX",
+    "VariantName": "WN-LAM-S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "LAM",
-    "YangsThoughts": "You mean these things aren't just a rumor mech techs talk about when they've had a few too many? Didn't see that coming. Can't wait to tear into it and see how it works."
+    "StockRole": "Striker Cavalry",
+    "YangsThoughts": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser."
 }
