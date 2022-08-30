@@ -1,12 +1,12 @@
 {
    "Description" : {
-      "Id" : "movedef_shadowhawklam",
-      "Name" : "MovementCapabilitiesDef for Shadow Hawk LAM Chassis",
+      "Id" : "movedef_shadowhawklam_SHD-X2",
+      "Name" : "MovementCapabilitiesDef for Shadow Hawk LAM SHD-X2 Chassis",
       "Details" : "",
       "Icon" : ""
    },
-   "MaxWalkDistance" : 140.0,
-   "MaxSprintDistance" : 240.0,
+   "MaxWalkDistance" : 120.0,
+   "MaxSprintDistance" : 180.0,
    "WalkVelocity" : 16.0,
    "RunVelocity" : 28.0,
    "SprintVelocity" : 32.0,

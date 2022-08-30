@@ -56,18 +56,18 @@
         "Manufacturer": "",
         "Model": "",
         "UIName": "Shadow Hawk LAM",
-        "Id": "chassisdef_shadowhawks_SHD-XS",
+        "Id": "chassisdef_shadowhawks_SHD-LAM-S",
         "Name": "Shadow Hawk LAM",
         "Details": "The SHD-X2's featured a Newhart Extended Range Large Laser in place of the original SHD-2H's Autocannon. The X2's mounts a pair of right shoulder mounted Holly 5-tubed Long Range Missile Launchers with single ton of ammunition. For close range fighting the 'Mech has a Martel Model 5 medium laser in the right arm.",
         "Icon": "uixTxrIcon_shawklam"
     },
-    "MovementCapDefID": "movedef_shadowhawklam",
+    "MovementCapDefID": "movedef_shadowhawklam_SHD-X2",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_shawklam",
     "PrefabIdentifier": "chrprfmech_shawklambase-001",
     "PrefabBase": "shawklam",
     "Tonnage": 55,
-    "InitialTonnage": 23,
+    "InitialTonnage": 23.5,
     "weightClass": "MEDIUM",
     "BattleValue": 5171000,
     "Heatsinks": 45,
@@ -253,7 +253,7 @@
             "z": 2.5
         }
     ],
-    "VariantName": "SHD-XS",
+    "VariantName": "SHD-LAM-S",
     "ChassisTags": {
         "items": [],
         "tagSetSourceFile": ""

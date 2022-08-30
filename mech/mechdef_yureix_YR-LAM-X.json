@@ -107,6 +107,17 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech_1",
             "SimGameUID": null,
