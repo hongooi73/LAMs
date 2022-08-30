@@ -91,7 +91,7 @@
     "PrefabIdentifier": "chrprfmech_phawklambase-001",
     "PrefabBase": "phawklam",
     "Tonnage": 50,
-    "InitialTonnage": 20,
+    "InitialTonnage": 25,
     "weightClass": "MEDIUM",
     "BattleValue": 4596000,
     "Heatsinks": 30,

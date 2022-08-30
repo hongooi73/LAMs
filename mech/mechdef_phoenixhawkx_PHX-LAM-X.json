@@ -172,7 +172,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_VSLLaser_1",
+            "ComponentDefID": "Weapon_Laser_LargeLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

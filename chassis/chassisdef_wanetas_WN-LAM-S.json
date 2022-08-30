@@ -14,7 +14,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "emod_armorslots_LAM",
+            "ComponentDefID": "emod_armorslots_LAM_2",
             "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
@@ -119,6 +119,10 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
@@ -145,6 +149,10 @@
         {
             "Location": "RightTorso",
             "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
                 {
                     "WeaponMount": "Missile",
                     "Omni": false
