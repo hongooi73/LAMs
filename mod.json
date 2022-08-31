@@ -13,28 +13,6 @@
     {
       "Type": "MechDef",
       "Path": "mech"
-    },
-    {
-      "Type": "MovementCapabilitiesDef",
-      "Path": "movement"
-    },
-    {
-      "Type": "Sprite",
-      "Path": "portraits"
-    },
-    {
-      "Type": "JumpJetDef",
-      "Path": "jumpjets",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "UpgradeDef",
-      "Path": "internals",
-      "ShouldMergeJSON": false
-    },
-    {
-      "Type": "HeatSinkDef",
-      "Path": "heatsinks"
     }
   ]
 }
