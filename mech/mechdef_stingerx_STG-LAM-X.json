@@ -13,7 +13,8 @@
             "unit_role_sniper",
             "unit_role_flanker",
             "unit_very_rare",
-            "elite_arsenal"
+            "elite_arsenal",
+            "unit_lam"
         ],
         "tagSetSourceFile": ""
     },
@@ -209,3 +210,4 @@
         }
     ]
 }
+

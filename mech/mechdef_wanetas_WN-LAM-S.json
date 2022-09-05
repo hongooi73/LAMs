@@ -15,7 +15,8 @@
             "unit_role_flanker",
             "unit_very_rare",
             "elite_arsenal_s_tier",
-            "elite_arsenal"
+            "elite_arsenal",
+            "unit_lam"
         ],
         "tagSetSourceFile": ""
     },
@@ -244,3 +245,4 @@
         }
     ]
 }
+
