@@ -1,8 +1,8 @@
 {
   "Name": "LAMs",
   "Enabled": true,
-  "Description": "Uses the CAB to add LAMs.",	
-  "Version": "0.666",
+  "Description": "Add LAMs to Expanded Arsenal/Elite Arsenal",	
+  "Version": "1.0.0",
   "Author": "Belbarid/hongooi2",
   "DependsOn" : ["Expanded Arsenal", "Elite Arsenal"],
   "Manifest": [
