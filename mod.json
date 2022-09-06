@@ -3,16 +3,23 @@
   "Enabled": true,
   "Description": "Uses the CAB to add LAMs.",	
   "Version": "0.666",
-  "Author": "Belbarid",
+  "Author": "Belbarid/hongooi2",
   "DependsOn" : ["Expanded Arsenal", "Elite Arsenal"],
   "Manifest": [
     {
       "Type": "ChassisDef",
-      "Path": "chassis"
+      "Path": "chassis",
+      "AddToDB": true
     },
     {
       "Type": "MechDef",
-      "Path": "mech"
+      "Path": "mech",
+      "AddToDB": true
+    },
+    {
+      "Type": "LanceDef",
+      "Path": "lance",
+      "AddToDB": true
     }
   ]
 }
