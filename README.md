@@ -38,8 +38,9 @@ A LAM has the following buffs compared to regular mechs:
 - Total ~240% multiplier to jump distance, stacking with items like improved and advanced jump jets
 - +10 extra heatsinking
 - 2 extra evasion pips on movement, stacking with the level 5 Piloting ability
+- +3 hit defense bonus, _not_ stacking with a ++gyro (essentially the gyro is built-in)
 
-Because of streamlining and weight constraints, a LAM _cannot_ make use of the Elite Arsenal defensive items (Passive Defensive Matrix, Hybrid Defensive Package, Heavy Defensive Suite). These represent add-on armour, sensor gear and other protective modifications that would interfere with its aerodynamics. However, an X-tier LAM gains an inherent +10% damage reduction from improved armour, and similarly an S-tier LAM gains +15% damage reduction.
+Because of streamlining and weight constraints, a LAM cannot make use of Elite Arsenal defensive items (Passive Defensive Matrix, Hybrid Defensive Package, Heavy Defensive Suite). These represent add-on armour, sensor gear and other protective modifications that would interfere with its aerodynamics. However, an X-tier LAM gains an inherent +10% damage reduction from improved armour, and similarly an S-tier LAM gains +15% damage reduction.
 
 LAMs are thus extremely agile and evasive, but cannot take sustained punishment like regular mechs.
 
