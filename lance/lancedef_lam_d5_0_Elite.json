@@ -18,6 +18,8 @@
             "lance_type_cavalry_elite_arsenal",
             "lance_type_support_elite_arsenal",
             "lance_type_lam_elite_arsenal",
+            "elite",
+            "elite_arsenal",
             "lance_type_dynamic",
             "difficulty_5",
             "lance_bracket_med",
