@@ -3,6 +3,7 @@
 ### Bug fixes
 
 - Fix tags for elite lances so they won't show up in regular missions
+- Fix tags for Yurei S
 
 ## v1.0.0
 
