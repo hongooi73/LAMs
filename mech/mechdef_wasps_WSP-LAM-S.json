@@ -176,17 +176,6 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
@@ -199,10 +188,10 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+            "ComponentDefID": "Gear_Guardian_ECM_2",
             "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
