@@ -101,7 +101,8 @@
             "unitTagSet": {
                 "items": [
                     "unit_mech",
-                    "unit_heavy"
+                    "unit_medium",
+                    "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -132,7 +133,8 @@
             "unitTagSet": {
                 "items": [
                     "unit_mech",
-                    "unit_heavy"
+                    "unit_medium",
+                    "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },

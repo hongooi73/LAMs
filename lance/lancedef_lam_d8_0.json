@@ -1,14 +1,14 @@
 {
     "Description": {
-        "Id": "lancedef_lam_d5_1",
-        "Name": "LAM dif 5 n 1",
+        "Id": "lancedef_lam_d8_0",
+        "Name": "LAM dif 8 n 0",
         "Details": "",
         "Icon": "",
         "Cost": 0,
         "Rarity": 0,
         "Purchasable": false
     },
-    "Difficulty": 5,
+    "Difficulty": 8,
     "LanceTags": {
         "items": [
             "lance_type_mech",
@@ -19,9 +19,9 @@
             "lance_type_support",
             "lance_type_lam",
             "lance_type_dynamic",
-            "difficulty_5",
-            "lance_bracket_med",
-            "lance_type_medium"
+            "difficulty_8",
+            "lance_bracket_high",
+            "lance_type_heavy"
         ],
         "tagSetSourceFile": "Tags/LanceTags"
     },
@@ -49,7 +49,7 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d5_ace"
+                    "pilot_npc_d8_ace"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
@@ -68,8 +68,7 @@
                 "items": [
                     "unit_mech",
                     "elite_arsenal",
-                    "unit_medium",
-                    "unit_lam"
+                    "unit_heavy"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -83,7 +82,7 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d5_elite"
+                    "pilot_npc_d8_elite"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
@@ -101,8 +100,7 @@
             "unitTagSet": {
                 "items": [
                     "unit_mech",
-                    "unit_medium",
-                    "unit_lam"
+                    "unit_heavy"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -115,7 +113,7 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d5"
+                    "pilot_npc_d8"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },
@@ -133,8 +131,7 @@
             "unitTagSet": {
                 "items": [
                     "unit_mech",
-                    "unit_medium",
-                    "unit_lam"
+                    "unit_heavy"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
@@ -147,7 +144,7 @@
             },
             "pilotTagSet": {
                 "items": [
-                    "pilot_npc_d5"
+                    "pilot_npc_d8"
                 ],
                 "tagSetSourceFile": "Tags/PilotTags"
             },

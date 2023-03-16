@@ -37,7 +37,7 @@
                     "unit_mech_s_tier",
                     "elite_arsenal",
                     "elite_arsenal_s_tier",
-                    "unit_medium",
+                    "unit_light",
                     "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -71,7 +71,7 @@
                     "unit_mech_s_tier",
                     "elite_arsenal",
                     "elite_arsenal_s_tier",
-                    "unit_medium",
+                    "unit_light",
                     "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"

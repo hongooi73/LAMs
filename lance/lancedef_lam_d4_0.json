@@ -34,7 +34,7 @@
                 "items": [
                     "unit_mech",
                     "elite_arsenal",
-                    "unit_medium",
+                    "unit_light",
                     "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
@@ -68,7 +68,7 @@
                 "items": [
                     "unit_mech",
                     "elite_arsenal",
-                    "unit_medium",
+                    "unit_light",
                     "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"

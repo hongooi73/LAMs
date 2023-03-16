@@ -68,7 +68,8 @@
                 "items": [
                     "unit_mech",
                     "elite_arsenal",
-                    "unit_heavy"
+                    "unit_medium",
+                    "unit_lam"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
