@@ -259,7 +259,9 @@
     ],
     "VariantName": "YR-LAM-S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "elite_arsenal_s_tier"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",

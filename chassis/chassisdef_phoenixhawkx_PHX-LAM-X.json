@@ -280,7 +280,9 @@
     ],
     "VariantName": "PHX-LAM-X",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "elite_arsenal"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM",

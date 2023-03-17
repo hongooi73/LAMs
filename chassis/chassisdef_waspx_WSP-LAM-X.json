@@ -230,7 +230,9 @@
     ],
     "VariantName": "WSP-LAM-X",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "elite_arsenal"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",

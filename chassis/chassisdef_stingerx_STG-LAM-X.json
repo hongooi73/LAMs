@@ -243,7 +243,9 @@
     ],
     "VariantName": "STG-LAM-X",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "elite_arsenal"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Recon",

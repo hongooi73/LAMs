@@ -255,7 +255,9 @@
     ],
     "VariantName": "SHD-LAM-S",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "elite_arsenal_s_tier"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM - RECON",
