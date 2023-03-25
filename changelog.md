@@ -1,3 +1,8 @@
+## v2.0.0
+
+- Reduce the chance of encountering a full lance of LAMs, especially in lower-difficulty missions
+- Elite Word of Blake LAMs (Waneta X/S, Yurei X/S) now mount C3i computers; the ER large laser has been replaced with lighter weapons to compensate
+
 ## v1.1.0
 
 ### Bug fixes
