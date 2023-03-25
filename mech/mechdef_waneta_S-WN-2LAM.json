@@ -14,7 +14,8 @@
             "unit_role_sniper",
             "unit_role_flanker",
             "unit_very_rare",
-            "unit_lam"
+            "unit_lam",
+            "wordofblake"
         ],
         "tagSetSourceFile": ""
     },

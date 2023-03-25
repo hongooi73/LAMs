@@ -16,7 +16,8 @@
             "unit_very_rare",
             "elite_arsenal_s_tier",
             "elite_arsenal",
-            "unit_lam"
+            "unit_lam",
+            "wordofblake"
         ],
         "tagSetSourceFile": ""
     },
@@ -123,8 +124,19 @@
             "hasPrefabName": false
         },
         {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_C3i_Computer_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
