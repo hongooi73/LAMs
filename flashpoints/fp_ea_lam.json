@@ -1,0 +1,66 @@
+{
+    "Description" : {
+        "Id" : "fp_ea_lam",
+        "Name" : "A Protocultural Affair",
+        "Details" : "Elite Arsenal LAM flashpoint",
+        "Icon" : null
+    },
+    "Weight" : 100,
+    "InternalName" : "ea_lam",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 6,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : [
+                    "flashpoint_ea_7_1_complete",
+                    "flashpoint_ea_7_2_complete"
+                ]
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : [
+                    "flashpoint_ea_lam_complete"
+                ]
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "tagSetSourceFile" : "Tags/CompanyTags",
+            "items" : [
+                "planet_name_cluffsstand"
+            ]
+        },
+        "ExclusionTags" : {
+            "tagSetSourceFile" : "Tags/PlanetTags",
+            "items" : []
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "SelfEmployed_Yang"
+    ],
+    "TargetFaction" : "WordOfBlake",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "LONG",
+    "Repeatable" : true,
+    "MilestoneSetID" : "ms_fp_ea_lam",
+    "UseAvailableTimeoutOverride" : true,
+    "AvailableTimeout" : 300,
+    "UseInProgressTimeoutOverride" : true,
+    "InProgressTimeout" : 30,
+    "RewardCollectionID" : "itemCollection_fp_ea_lam",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "Hey Boss, you remember that crazy pirate attack on the Word of Blake \u2014 Warzone Delta, I think it was called? Turns out the Blakists were shipping something from there to Cluff's Stand. Maybe we might want to check it out.",
+    "FlashpointDescriberCastDefId" : "castDef_YangDefault",
+    "Tags" : {
+        "tagSetSourceFile" : "tags/FlashpointTags",
+        "items" : []
+    }
+}
