@@ -1,6 +1,6 @@
 {
     "ID": "fp_ea_lam_mission5",
-    "contractName": "A Protocultural Affair: Mission 5 (+ +)",
+    "contractName": "A Protocultural Affair: Mission 5",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 8,
     "difficultyUIModifier": 1,
@@ -81,13 +81,7 @@
                         "tagSetSourceFile": ""
                     },
                     "Stats": [
-                        {
-                            "typeString": "System.Single",
-                            "name": "ContractBonusRewardPct",
-                            "value": "0.50",
-                            "set": false,
-                            "valueConstant": null
-                        }
+
                     ],
                     "Actions": [
 
@@ -188,7 +182,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Darius, we've managed to find cover. It looks like the pirates have two lances of 'Mechs. The prototype is covering us.",
+                    "words": "Darius, we've managed to find cover. It looks like the pirates have two lances of 'Mechs. The prototype is covering us, but I don't know how long it'll survive against those numbers.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -252,7 +246,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Let's be thankful for small mercies. Just... survive as well as you can, Doc. I'm okay if we lose the prototype, but I don't want to lose more people today.",
+                    "words": "Let's be thankful for small mercies. Just... stay alive as well as you can, Doc. I'm okay if we lose the prototype, but I don't want to lose more people today.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -277,7 +271,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Superb, Commander. My scopes are clear; all primary targets eliminated.",
+                    "words": "Amazing job, Commander. My scopes are clear; all the pirate 'Mechs have been eliminated.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -302,7 +296,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "I'm pulling you out. We can't get this one done. Live to fight another day.",
+                    "words": "We've lost the prototype.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -406,136 +400,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
-                        "unitTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "spawnEffectTags": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId": "pilotDef_InheritLance",
-                        "pilotTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": null,
-                        "selectedPilotDefId": null
-                    },
-                    {
-                        "unitSpawnPoint": {
-                            "EncounterObjectGuid": "ebc06b6a-c5a8-4165-95ce-480bcf335570"
-                        },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
-                        "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
-                        "unitTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "spawnEffectTags": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId": "pilotDef_InheritLance",
-                        "pilotTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": null,
-                        "selectedPilotDefId": null
-                    },
-                    {
-                        "unitSpawnPoint": {
-                            "EncounterObjectGuid": "d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1"
-                        },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
-                        "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
-                        "unitTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "spawnEffectTags": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId": "pilotDef_InheritLance",
-                        "pilotTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": null,
-                        "selectedPilotDefId": null
-                    },
-                    {
-                        "unitSpawnPoint": {
-                            "EncounterObjectGuid": "461141c2-f956-49a5-b2c6-6f951b957a94"
-                        },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
-                        "unitType": "Mech",
-                        "unitDefId": "mechDef_None",
+                        "unitDefId": "mechdef_valkyrieghost_VG-LAM-SS",
                         "unitTagSet": {
                             "items": [
 
@@ -616,9 +481,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle_elite_arsenal",
-                        "lance_type_notallvehicles_elite_arsenal",
-                        "elite_arsenal_ss"
+                        "lance_type_battle",
+                        "lance_type_mech"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -820,9 +684,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_support_elite_arsenal",
-                        "lance_type_notallvehicles_elite_arsenal",
-                        "elite_arsenal_ss"
+                        "lance_type_support",
+                        "lance_type_mech"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
