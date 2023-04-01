@@ -111,7 +111,7 @@
         }
     ],
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_phawklam",
+    "HardpointDataDefID": "hardpointdatadef_vfwargerwalk",
     "PrefabIdentifier": "chrprfmech_vfwargerwalkbase-001",
     "PrefabBase": "vfwargerwalk",
     "Tonnage": 50,
