@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We have long suspected that there is a {TEAM_TAR.FactionDef.Demonym} research station hidden in the {TGT_SYSTEM.name} system, and we've finally gotten wind of its possible location. We need a few brave, and plausibly deniable, mercenaries to secure the location for a dropship extraction of any valuable scientific personnel.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "Commander, plausible deniability is our specialty.",
+    "shortDescription": "This is it. Now that we have what we need to bypass the retinal scan on the prototype, we can make our assault on the lab. There's still a Blakist demi-lance in the area, so it'll be a tough fight. However, once we defeat them, we should be able to unlock the prototype and just walk it out of there.",
+    "longDescription": "Commander, I have a bad feeling about this. I don't know why, but I just do.",
     "salvagePotential": 19,
     "requirementList": [
 
@@ -396,7 +396,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Eliminate opposition and take control of the territory, Commander.",
+                    "words": "Once you've eliminated the opposition, we can enter the base to unlock the prototype.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -421,7 +421,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The research station is under our control, Commander.",
+                    "words": "The Word of Blake lab is under our control, Commander. Dr. Murad and the infiltration team will be there shortly to gain entry to the underground portion of the facility.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -437,30 +437,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "We're ready to send in the extraction ships, for you and the scientists.",
+                    "words": "Eddie has told us exactly where the secure 'Mechbay is located, Commander. It shouldn't take us long to find it.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
-                    "emote": "Default",
-                    "audioName": "NONE",
-                    "cameraFocusGuid": "",
-                    "cameraDistance": "Far",
-                    "cameraHeight": "Default",
-                    "revealRadius": -1
-                },
-                {
-                    "words": "Sit tight, Commander. I think {TEAM_EMP.FactionDef.ShortName} will be pleased with the results.",
-                    "wordsColor": {
-                        "r": 1,
-                        "g": 1,
-                        "b": 1,
-                        "a": 1
-                    },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_FarahDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",

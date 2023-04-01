@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "In violation of local treaties, a significant combat unit consisting of two lances of 'Mechs has dropped on {TGT_SYSTEM.Name}. Your task is to assault and dislodge the {TEAM_TAR.FactionDef.Demonym} force. You will send a definitive message: Unsanctioned military operations on {TGT_SYSTEM.name} will be eliminated with extreme prejudice. Leave none standing.\n\n<b>This is a highly dangerous operation that will involve fighting elite enemy units. A 50% bonus payment has been authorized on completion of the primary objective.<\/b>",
-    "longDescription": "Buckle up, Commander. Two heavily-armed lances? This is going to be tough.",
+    "shortDescription": "Well, this is great. The pirates want in on the action, and they've sent several 'Mechs to seize the prototype. Dr. Murad and the infiltration team escaped from the tunnels, but they were forced to take a detour which means they're cut off. I guess we're going to find out if the prototype is as good as Eddie says it is.",
+    "longDescription": "Buckle up, Commander. This is going to be tough.",
     "salvagePotential": 19,
     "requirementList": [
 
@@ -172,7 +172,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "We're approaching the enemy drop site, Commander. Eyes peeled.",
+                    "words": "Dr. Murad, come in. What's the situation down there?",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -188,14 +188,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Take care moving forward, as we are expecting heavy resistance.",
+                    "words": "Darius, we've managed to find cover. It looks like the pirates have two lances of 'Mechs. The prototype is covering us.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_FarahDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -204,7 +204,55 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Don't take this lightly. They know we're coming. Oliveira out.",
+                    "words": "Damn it. I'm sorry about this, Boss. I wasn't expecting the pirates to show up out of nowhere.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_YangDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Ugh. I'm having flashbacks to Castle Nautilus.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_SumireDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "The bombardment's stopped. It looks like the pirates only had enough ammunition for one barrage.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_FarahDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Let's be thankful for small mercies. Just... survive as well as you can, Doc. I'm okay if we lose the prototype, but I don't want to lose more people today.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
