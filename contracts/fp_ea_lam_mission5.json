@@ -1,6 +1,6 @@
 {
     "ID": "fp_ea_lam_mission5",
-    "contractName": "A Protocultural Affair: Mission 5",
+    "contractName": "A Protocultural Affair: Mission 5 (+)",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 8,
     "difficultyUIModifier": 1,
@@ -24,7 +24,7 @@
 
     ],
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 4,
+    "maxNumberOfPlayerUnits": 1,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": 400,
     "mechMinTonnages": [
@@ -481,14 +481,14 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle",
-                        "lance_type_mech"
+                        "lance_type_battle_elite_arsenal",
+                        "lance_type_mech_elite_arsenal"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-
+                        "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -684,14 +684,14 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_support",
-                        "lance_type_mech"
+                        "lance_type_support_elite_arsenal",
+                        "lance_type_mech_elite_arsenal"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-
+                        "elite_arsenal_ss"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },

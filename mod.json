@@ -1,25 +1,48 @@
 {
-  "Name": "LAMs",
-  "Enabled": true,
-  "Description": "Add LAMs to Expanded Arsenal/Elite Arsenal",	
-  "Version": "1.0.0",
-  "Author": "Belbarid/hongooi2",
-  "DependsOn" : ["Expanded Arsenal", "Elite Arsenal"],
-  "Manifest": [
-    {
-      "Type": "ChassisDef",
-      "Path": "chassis",
-      "AddToDB": true
-    },
-    {
-      "Type": "MechDef",
-      "Path": "mech",
-      "AddToDB": true
-    },
-    {
-      "Type": "LanceDef",
-      "Path": "lance",
-      "AddToDB": true
-    }
-  ]
+    "Name": "LAMs",
+    "Enabled": true,
+    "Description": "Add LAMs to Expanded Arsenal/Elite Arsenal",
+    "Version": "1.0.0",
+    "Author": "Belbarid/hongooi2",
+    "DependsOn": [
+        "Expanded Arsenal",
+        "Elite Arsenal"
+    ],
+    "Manifest": [
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis",
+            "AddToDB": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "mech",
+            "AddToDB": true
+        },
+        {
+            "Type": "LanceDef",
+            "Path": "lance",
+            "AddToDB": true
+        },
+        {
+            "Type": "ContractOverride",
+            "Path": "contracts"
+        },
+        {
+            "Type": "CastDef",
+            "Path": "cast"
+        },
+        {
+            "Type": "FlashpointDef",
+            "Path": "flashpoints"
+        },
+        {
+            "Type": "SimGameConversations",
+            "Path": "simGameConversations"
+        },
+        {
+            "Type": "SimGameMilestoneSet",
+            "Path": "milestoneSets"
+        }
+    ]
 }
