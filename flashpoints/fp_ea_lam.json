@@ -33,7 +33,7 @@
         "RequirementTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "planet_name_alamagordo"
+                "planet_name_cluffsstand"
             ]
         },
         "ExclusionTags" : {

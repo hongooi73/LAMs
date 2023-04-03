@@ -69,7 +69,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ea_lam_035_interrupt",
+                            "value" : "ms_fp_ea_lam_002_briefing",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -488,7 +488,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_cityCenter_uTech",
+                            "value" : "mapGeneral_gridLock_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -627,7 +627,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_cityCenter_uTech",
+                            "value" : "mapGeneral_gridLock_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -757,7 +757,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_gridLock_uTech",
+                            "value" : "mapGeneral_cityCenter_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",

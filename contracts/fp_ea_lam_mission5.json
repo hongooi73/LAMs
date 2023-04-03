@@ -39,7 +39,7 @@
         -1,
         -1
     ],
-    "mapMood": null,
+    "mapMood": "UrbanSunsetFoggy",
     "startingFogOfWarVisibility": "Surveyed",
     "contractObjectiveList": [
         {
@@ -182,7 +182,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Darius, we got out. Luckily Eddie mentioned there was a secondary entrance to the tunnels. Problem is, we're on the opposite side of the city to the rest of the team.",
+                    "words": "Darius, we got out. Luckily Eddie mentioned there was another exit to the tunnels. Problem is, we're on the opposite side of the city to the rest of the team.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -198,7 +198,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "I've pinpointed your location. There's no landing sites nearby, unless you want me to crush half a city block with the Leopard.",
+                    "words": "I've pinpointed your location. There's no suitable landing sites nearby, unless you want me to crush half a city block with the Leopard.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -246,7 +246,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Hey, you over there! We outnumber you eight to one. Hand over that prototype.",
+                    "words": "Hey, mercs! We outnumber you eight to one, and we are packing <i>heat</i>. Hand over that prototype.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -527,7 +527,7 @@
                     "EncounterObjectGuid": "d9a28c08-abdb-42bb-a140-ad3927d1f8cf"
                 },
                 "name": "Lance_Enemy_OpposingForce",
-                "lanceDefId": "Tagged",
+                "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
                         "lance_type_battle_elite_arsenal",
@@ -560,7 +560,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_wolverines_WVR-S",
                         "unitTagSet": {
                             "items": [
 
@@ -579,7 +579,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d6_Ace_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -603,7 +603,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_hatchetmans_HCT-S",
                         "unitTagSet": {
                             "items": [
 
@@ -622,7 +622,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d6_Ace_2",
                         "pilotTagSet": {
                             "items": [
 
@@ -646,7 +646,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_ostwarx_OWR-X",
                         "unitTagSet": {
                             "items": [
 
@@ -665,7 +665,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d6_Elite_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -689,7 +689,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_thunderbolt_TDR-5SX",
                         "unitTagSet": {
                             "items": [
 
@@ -708,7 +708,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d6_Elite_2",
                         "pilotTagSet": {
                             "items": [
 
@@ -732,7 +732,7 @@
                     "EncounterObjectGuid": "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e"
                 },
                 "name": "Lance_Enemy_Ambushers",
-                "lanceDefId": "Tagged",
+                "lanceDefId": "Manual",
                 "lanceTagSet": {
                     "items": [
                         "lance_type_support_elite_arsenal",
@@ -765,7 +765,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_marauders_MAD-S2",
                         "unitTagSet": {
                             "items": [
 
@@ -784,7 +784,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d7_Ace_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -808,7 +808,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_hunchbacks_HBK-S1",
                         "unitTagSet": {
                             "items": [
 
@@ -827,7 +827,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d7_Ace_2",
                         "pilotTagSet": {
                             "items": [
 
@@ -851,7 +851,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_crusaderx_CRD-X2",
                         "unitTagSet": {
                             "items": [
 
@@ -870,7 +870,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d7_Elite_1",
                         "pilotTagSet": {
                             "items": [
 
@@ -894,7 +894,7 @@
                         "customUnitName": null,
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
-                        "unitDefId": "UseLance",
+                        "unitDefId": "mechdef_archer_ARC-2RX1",
                         "unitTagSet": {
                             "items": [
 
@@ -913,7 +913,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotDefId": "pilot_d7_Elite_2",
                         "pilotTagSet": {
                             "items": [
 
