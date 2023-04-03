@@ -7,7 +7,7 @@
     },
     "Weight" : 100,
     "InternalName" : "ea_lam",
-    "PublishState" : "UNPUBLISHED",
+    "PublishState" : "PUBLISHED",
     "Difficulty" : 6,
     "Requirements" : [
         {
@@ -33,7 +33,7 @@
         "RequirementTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "planet_name_cluffsstand"
+                "planet_name_alamagordo"
             ]
         },
         "ExclusionTags" : {
@@ -48,7 +48,7 @@
     "TargetFaction" : "WordOfBlake",
     "AllowRefitTime" : false,
     "FlashpointLength" : "LONG",
-    "Repeatable" : true,
+    "Repeatable" : false,
     "MilestoneSetID" : "ms_fp_ea_lam",
     "UseAvailableTimeoutOverride" : true,
     "AvailableTimeout" : 300,

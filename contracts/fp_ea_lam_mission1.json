@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Thanks for doing this, Boss. The first step is to get Eddie away from the clutches of the Word of Blake. I've got the coordinates for the pickup: he lives in an estate just outside the New Durban city limits. Once we've got him on board the Argo, we can pick his brains on just what the Blakists are doing here.",
+    "shortDescription": "Thanks for doing this, Boss. The first step is to get Eddie out of the clutches of the Word of Blake. I've got the coordinates for the pickup: he lives in a residential complex in New Durban Sector ZZ-9 Alpha. Once we've got him on board the Argo, we can pick his brains on just what the Blakists are doing.",
     "longDescription": "There's a Word of Blake demi-lance patrolling the vicinity, equipped with LAMs. Expect some shooting.",
     "salvagePotential": 19,
     "requirementList": [
@@ -901,9 +901,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle_elite_arsenal",
-                        "lance_type_notallvehicles_elite_arsenal",
-                        "elite_arsenal_ss"
+                        "elite_arsenal_ss",
+                        "lance_type_lam_elite_arsenal"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -1105,8 +1104,8 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_support_elite_arsenal",
-                        "elite_arsenal_ss"
+                        "elite_arsenal_ss",
+                        "lance_type_lam_elite_arsenal"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },

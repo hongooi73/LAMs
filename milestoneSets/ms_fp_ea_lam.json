@@ -69,7 +69,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ea_lam_002_briefing",
+                            "value" : "ms_fp_ea_lam_035_interrupt",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -219,7 +219,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_ea_lam_100_cancel",
+                            "value" : "ms_fp_ea_lam_400_cancel",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -269,7 +269,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_centralPond_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -488,7 +488,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_cityCenter_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -559,7 +559,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_barterTown_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -627,7 +627,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "",
+                            "value" : "mapGeneral_cityCenter_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -636,7 +636,7 @@
                                 "SelfEmployed_Yang",
                                 "WordOfBlake",
                                 "6",
-                                "ms_fp_ea_lam_035_mission5",
+                                "ms_fp_ea_lam_035_interrupt",
                                 null,
                                 null
                             ]
@@ -757,7 +757,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "",
+                            "value" : "mapGeneral_gridLock_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
@@ -773,99 +773,6 @@
                         }
                     ],
                     "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_ea_lam_100_cancel",
-                "Name" : "Cancel fp",
-                "Details" : "Cancel fp",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "tagSetSourceFile" : "",
-                            "items" : []
-                        },
-                        "ExclusionTags" : {
-                            "tagSetSourceFile" : "",
-                            "items" : []
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "tagSetSourceFile" : "",
-                        "items" : [
-                            "flashpoint_ea_lam_cancel",
-                            "flashpoint_ea_lam_complete"
-                        ]
-                    },
-                    "RemovedTags" : {
-                        "tagSetSourceFile" : "",
-                        "items" : []
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_ea_lam_101_reward_cancel",
-                            "valueConstant" : null,
-                            "additionalValues" : null
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Ship",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                "BaseFlashpoint"
-                            ]
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_ea_lam_101_reward_cancel",
-                "Name" : "Reward cancel",
-                "Details" : "No reward for cancel",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [],
-                    "Actions" : [],
-                    "ForceEvents" : [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -976,7 +883,7 @@
                             "value" : "ms_fp_ea_lam_303_reward",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "itemCollection_fp_ea_lam_small",
+                                "itemCollection_fp_ea_lam_low",
                                 null
                             ]
                         },
@@ -1165,6 +1072,100 @@
                     ],
                     "Actions" : [],
                     "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_lam_400_cancel",
+                "Name" : "Cancel fp",
+                "Details" : "Cancel fp",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : [
+                            "flashpoint_ea_lam_cancel",
+                            "flashpoint_ea_lam_complete"
+                        ]
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_CompleteFlashpoint",
+                            "value" : "ms_fp_ea_lam_401_reward_cancel",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "itemCollection_loot_none",
+                                "CompletedWithoutReward"
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Ship",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_lam_401_reward_cancel",
+                "Name" : "Reward cancel",
+                "Details" : "No reward for cancel",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [],
+                    "ForceEvents" : [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }

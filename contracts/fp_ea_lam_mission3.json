@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Eddie has provided us with intel on the movements of the elite test pilot we're after. He's currently outside the prototype, engaging in maneuvers with a single accompanying Word of Blake demi-lance. If we strike now, we can take him down while he's relatively isolated.",
-    "longDescription": "We'll have to eliminate that demi-lance as well to ensure we control the battlefield.",
+    "shortDescription": "Eddie has provided us with intel on the movements of the elite test pilot we're after. He's currently outside the prototype, engaging in a live-fire exercise at a desert test range. This is our opportunity to take him down while he's relatively isolated.",
+    "longDescription": "There's a Word of Blake demi-lance with him, which we'll have to eliminate as well if we're to control the battlefield.",
     "salvagePotential": 15,
     "requirementList": [
 
@@ -600,11 +600,10 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle_elite_arsenal",
                         "lance_type_mech_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
@@ -818,7 +817,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_50"
+
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },

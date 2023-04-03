@@ -459,7 +459,23 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Is that the special prototype? Damn, that is one sweet-looking 'Mech. Er, I mean, reduce it to dust, Boss.",
+                    "words": "Is that the special prototype? That looks like stealth armor. Still a damn fine looking 'Mech.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_YangDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "Eddie also said that it's rigged to self-destruct if it's disabled, to stop it being captured by the enemy. So don't worry about salvage.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,

@@ -43,6 +43,10 @@
         {
             "Type": "SimGameMilestoneSet",
             "Path": "milestoneSets"
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemcol"
         }
     ]
 }

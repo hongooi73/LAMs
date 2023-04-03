@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Well, this is great. The pirates want in on the action, and they've sent several 'Mechs to seize the prototype. Dr. Murad and the infiltration team escaped from the tunnels, but they were forced to take a detour which means they're cut off. I guess we're going to find out if the prototype is as good as Eddie says it is.",
+    "shortDescription": "Well, this is great. The pirates want in on the action. Their artillery has sealed off the tunnels and we're stuck down here with the prototype. Assuming we get out, we're also going to have to deal with their welcoming committee.",
     "longDescription": "Buckle up, Commander. This is going to be tough.",
     "salvagePotential": 19,
     "requirementList": [
@@ -166,7 +166,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Dr. Murad, come in. What's the situation down there?",
+                    "words": "Yang, come in. What's the situation down there?",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -182,14 +182,30 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Darius, we've managed to find cover. It looks like the pirates have two lances of 'Mechs. The prototype is covering us, but I don't know how long it'll survive against those numbers.",
+                    "words": "Darius, we got out. Luckily Eddie mentioned there was a secondary entrance to the tunnels. Problem is, we're on the opposite side of the city to the rest of the team.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_FarahDefault",
+                    "selectedCastDefId": "castDef_YangDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "I've pinpointed your location. There's no landing sites nearby, unless you want me to crush half a city block with the Leopard.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_SumireDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -214,7 +230,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Ugh. I'm having flashbacks to Castle Nautilus.",
+                    "words": "Speaking of which, I'm also picking up two lances of pirate 'Mechs around you. Ugh. I'm having flashbacks to Castle Nautilus.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -230,14 +246,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "The bombardment's stopped. It looks like the pirates only had enough ammunition for one barrage.",
+                    "words": "Hey, you over there! We outnumber you eight to one. Hand over that prototype.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_FarahDefault",
+                    "selectedCastDefId": "castDef_PirateDefaultCommander",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -246,14 +262,46 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Let's be thankful for small mercies. Just... stay alive as well as you can, Doc. I'm okay if we lose the prototype, but I don't want to lose more people today.",
+                    "words": "Fuck you!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_DariusDefault",
+                    "selectedCastDefId": "castDef_YangDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "You know, I was kinda hoping you'd say that.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_PirateDefaultCommander",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                },
+                {
+                    "words": "I guess we're gonna find out if this prototype is as good as everyone says it is.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_YangDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -271,7 +319,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Amazing job, Commander. My scopes are clear; all the pirate 'Mechs have been eliminated.",
+                    "words": "Amazing job, Commander. My scopes are clear; all the pirate 'Mechs have been destroyed.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -296,7 +344,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "We've lost the prototype.",
+                    "words": "We've lost the prototype. I just hope we haven't lost the pilot as well.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -392,6 +440,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
@@ -488,7 +537,9 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "elite_arsenal_ss"
+                        "elite_arsenal_ss",
+                        "lance_type_notfull",
+                        "lance_type_solo"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -691,7 +742,9 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "elite_arsenal_ss"
+                        "elite_arsenal_ss",
+                        "lance_type_notfull",
+                        "lance_type_solo"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },

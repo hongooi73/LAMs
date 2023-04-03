@@ -1,20 +1,18 @@
 {
-   "id" : "castDef_EddieNkrumahDefault",
-   "internalName" : "EddieNkrumahDefault",
-   "firstName" : "Eddie",
-   "lastName" : "Nkrumah",
-   "callsign" : null,
-   "rank" : "Lab executive",
-   "showRank" : false,
-   "showFirstName" : true,
-   "showCallsign" : false,
-   "showLastName" : true,
-   "factionID" : "Locals",
-   "defaultEmotePortrait" : {
-      "emote" : "Default",
-      "portraitAssetPath" : "sprites/Portraits/guiTxrPort_LocalsRep_utr.png"
-   },
-   "emotePotraitList" : [
-      
-   ]
+    "id": "castDef_EddieNkrumahDefault",
+    "internalName": "EddieNkrumahDefault",
+    "firstName": "Eddie",
+    "lastName": "Nkrumah",
+    "callsign": null,
+    "rank": "Lab Executive",
+    "showRank": false,
+    "showFirstName": true,
+    "showCallsign": false,
+    "showLastName": true,
+    "factionID": "Locals",
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/guiTxrPort_LocalsRep_utr.png"
+    },
+    "emotePotraitList": []
 }

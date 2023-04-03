@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "This is it. Now that we have what we need to bypass the retinal scan on the prototype, we can make our assault on the lab. There's still a Blakist demi-lance in the area, so it'll be a tough fight. However, once we defeat them, we should be able to unlock the prototype and just walk it out of there.",
+    "shortDescription": "This is it. Now that we have what we need to bypass the retinal scan on the prototype, we can make our assault on the lab. There's still a Blakist demi-lance guarding it, so we'll have to deal with them first. If there's any 'Mechs inside the lab, they'll probably come out of the tunnels to fight as well. However, once we dispose of the opposition, we should be able to unlock the prototype and just walk it out of there.",
     "longDescription": "Commander, I have a bad feeling about this. I don't know why, but I just do.",
     "salvagePotential": 19,
     "requirementList": [
@@ -283,7 +283,7 @@
             "encounterChunk": {
                 "EncounterObjectGuid": "a47386d9-3d67-4e83-ac45-ab438af31f4c"
             },
-            "enableChunkFromContract": false,
+            "enableChunkFromContract": true,
             "controlledByContractChunkGroupList": [
 
             ],
@@ -364,7 +364,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "We're here to capture the {TEAM_TAR.FactionDef.Demonym} research station.",
+                    "words": "We're here to capture the {TEAM_TAR.FactionDef.Demonym} research lab.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -421,7 +421,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "The Word of Blake lab is under our control, Commander. Dr. Murad and the infiltration team will be there shortly to gain entry to the underground portion of the facility.",
+                    "words": "Okay, Yang, the way is clear for you and the infiltration team to enter those tunnels.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -437,14 +437,14 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Eddie has told us exactly where the secure 'Mechbay is located, Commander. It shouldn't take us long to find it.",
+                    "words": "Eddie has told us exactly where the secure 'Mechbay is located, Boss. Seems it's a bit of a maze inside, but it shouldn't take us long to find it.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
                         "b": 1,
                         "a": 1
                     },
-                    "selectedCastDefId": "castDef_FarahDefault",
+                    "selectedCastDefId": "castDef_YangDefault",
                     "emote": "Default",
                     "audioName": "NONE",
                     "cameraFocusGuid": "",
@@ -562,7 +562,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Dropship inbound for landing! We're going to get in and out quick!",
+                    "words": "Dropship inbound for landing! We're ready to enter the lab!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1137,7 +1137,7 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_battle_elite_arsenal",
+                        "lance_type_lam_elite_arsenal",
                         "lance_type_mech_elite_arsenal",
                         "elite_arsenal_ss"
                     ],
@@ -1155,7 +1155,7 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 2,
+                "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
