@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "dee3ebc7-d9df-4e5f-bfbb-0fb7dff587f8"
             },
-            "title": "Retrieve the Scientist and Escape",
+            "title": "Retrieve Yang's Friend and Escape",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",
@@ -635,7 +635,7 @@
     ],
     "overwriteMissionCompleteWhenAutoComplete": true,
     "overrideAutoCompleteDialogueId": null,
-    "disableNegotations": false,
+    "disableNegotations": true,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
@@ -644,8 +644,8 @@
     "useTravelCostPenalty": false,
     "usesExpiration": false,
     "expirationTimeOverride": -1,
-    "negotiatedSalary": 1,
-    "negotiatedSalvage": 0,
+    "negotiatedSalary": 0,
+    "negotiatedSalvage": 1,
     "excludedFromProceduralGeneration": true,
     "player1Team": {
         "encounterLayerData": {

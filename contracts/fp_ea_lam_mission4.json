@@ -66,7 +66,7 @@
             "objective": {
                 "EncounterObjectGuid": "caf2acf6-f7d4-43eb-8044-826b6180e2d6"
             },
-            "title": "Scout the Research Station",
+            "title": "Scout the Covert Lab",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -162,7 +162,7 @@
             "objective": {
                 "EncounterObjectGuid": "3a4192be-2a53-4383-94ac-19c08883ea5f"
             },
-            "title": "Occupy the Research Station",
+            "title": "Occupy the Covert Lab",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -194,7 +194,7 @@
             "objective": {
                 "EncounterObjectGuid": "1e13d14a-9a12-4b6f-b567-8bde83e77275"
             },
-            "title": "Pacify the Area Around the Research Station",
+            "title": "Pacify the Area Around the Covert Lab",
             "description": "This is a general objective to indicate the player must keep playing and eliminate enemies as they come.",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -667,7 +667,7 @@
     ],
     "overwriteMissionCompleteWhenAutoComplete": true,
     "overrideAutoCompleteDialogueId": null,
-    "disableNegotations": false,
+    "disableNegotations": true,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
@@ -676,8 +676,8 @@
     "useTravelCostPenalty": false,
     "usesExpiration": false,
     "expirationTimeOverride": -1,
-    "negotiatedSalary": 1,
-    "negotiatedSalvage": 0,
+    "negotiatedSalary": 0,
+    "negotiatedSalvage": 1,
     "excludedFromProceduralGeneration": true,
     "player1Team": {
         "encounterLayerData": {
@@ -1158,6 +1158,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {

@@ -598,7 +598,7 @@
     ],
     "overwriteMissionCompleteWhenAutoComplete": true,
     "overrideAutoCompleteDialogueId": null,
-    "disableNegotations": false,
+    "disableNegotations": true,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
@@ -607,8 +607,8 @@
     "useTravelCostPenalty": false,
     "usesExpiration": false,
     "expirationTimeOverride": -1,
-    "negotiatedSalary": 1,
-    "negotiatedSalvage": 0,
+    "negotiatedSalary": 0,
+    "negotiatedSalvage": 1,
     "excludedFromProceduralGeneration": true,
     "player1Team": {
         "encounterLayerData": {
@@ -1290,6 +1290,7 @@
                 "lanceDifficultyAdjustment": 0,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
+                "overrideSpawnMethod": "InstantlyAtSpawnPoint",
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {

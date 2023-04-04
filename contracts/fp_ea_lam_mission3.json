@@ -61,7 +61,7 @@
             "objective": {
                 "EncounterObjectGuid": "d111d351-a666-4852-8e4b-a300d0cccc2d"
             },
-            "title": "Destroy Enemy Units",
+            "title": "Defeat the Elite Test Pilot",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -334,7 +334,7 @@
     ],
     "overwriteMissionCompleteWhenAutoComplete": true,
     "overrideAutoCompleteDialogueId": null,
-    "disableNegotations": false,
+    "disableNegotations": true,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
@@ -343,8 +343,8 @@
     "useTravelCostPenalty": false,
     "usesExpiration": false,
     "expirationTimeOverride": -1,
-    "negotiatedSalary": 1,
-    "negotiatedSalvage": 0,
+    "negotiatedSalary": 0,
+    "negotiatedSalvage": 1,
     "excludedFromProceduralGeneration": true,
     "player1Team": {
         "encounterLayerData": {
@@ -625,7 +625,7 @@
                         "unitSpawnPoint": {
                             "EncounterObjectGuid": "9e2d0fed-3d92-42ee-92d0-2cc595709f2a"
                         },
-                        "customUnitName": null,
+                        "customUnitName": "Elite Test Pilot",
                         "customHeraldryDefId": null,
                         "unitType": "Mech",
                         "unitDefId": "UseLance",
