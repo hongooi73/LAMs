@@ -659,7 +659,6 @@
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
-
         {
             "Description" : {
                 "Id" : "ms_fp_ea_lam_035_interrupt",
@@ -705,6 +704,56 @@
                                 null
                             ]
                         },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_ea_lam_035_interruptresult",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_ea_lam_035_interruptresult",
+                "Name" : "Interrupt result",
+                "Details" : "Interrupt result",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "ExclusionTags" : {
+                            "tagSetSourceFile" : "",
+                            "items" : []
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RemovedTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "Stats" : null,
+                    "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_ea_lam_036_mission5",
