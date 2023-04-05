@@ -166,7 +166,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Yang, come in. What's the situation down there?",
+                    "words": "Yang, come in. What's your status?",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -182,7 +182,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Darius, we got out. Luckily Eddie mentioned there was another exit to the tunnels. Problem is, we're on the opposite side of the city to the rest of the team.",
+                    "words": "Darius, we got out of the tunnels, and the prototype is intact. Good thing Eddie mentioned that second exit. Problem is, we're on the opposite side of the city to the rest of the team.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -246,7 +246,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Hey, mercs! We outnumber you eight to one, and we are packing <i>heat</i>. Hand over that prototype.",
+                    "words": "Hey, mercs! There's eight of us against one of you, and we are packing <i>heat</i>. Get out of that prototype, now!",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -278,7 +278,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "You know, I was kinda hoping you'd say that.",
+                    "words": "You know, I was kind of hoping you'd say that.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,

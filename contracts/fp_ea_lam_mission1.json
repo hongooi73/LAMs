@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Thanks for doing this, Boss. The first thing is get Eddie out of the clutches of the Word of Blake. Here's the coordinates for the pickup: he lives in a residential complex in Sector ZZ-9 Alpha of the New Durban megacity. He's being guarded by a Word of Blake demi-lance, equipped with LAMs, but we've seen worse.",
+    "shortDescription": "Thanks for doing this, Boss. First, we have to get Eddie out of the clutches of the Word of Blake. Here's the coordinates for the pickup: he lives in a residential complex in Sector ZZ-9 Alpha of the New Durban megacity. He's being guarded by a demi-lance equipped with LAMs, but we've seen worse.",
     "longDescription": "LAMs are highly mobile and evasive targets. Be sure to watch your back, Commander.",
     "salvagePotential": 19,
     "requirementList": [
@@ -437,7 +437,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Thank you so much for this, Commander. I'll tell your people everything I know.",
+                    "words": "Thank you so much for this, Commander. I owe you my life.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
