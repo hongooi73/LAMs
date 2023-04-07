@@ -12,7 +12,7 @@
     "factionID": "Locals",
     "defaultEmotePortrait": {
         "emote": "Default",
-        "portraitAssetPath": "sprites/Portraits/guiTxrPort_LocalsRep_utr.png"
+        "portraitAssetPath": "sprites/Portraits/guiTxrPort_Espinosa_default_utr.png"
     },
     "emotePotraitList": []
 }
