@@ -301,6 +301,7 @@
     "VariantName": "VG-LAM-SS",
     "ChassisTags": {
         "items": [
+            "BLACKLISTED",
             "elite_arsenal_s_tier"
         ],
         "tagSetSourceFile": ""
