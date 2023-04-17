@@ -47,6 +47,10 @@
         {
             "Type": "ItemCollectionDef",
             "Path": "itemcol"
+        },
+        {
+            "Type": "BaseDescriptionDef",
+            "Path": "lore"
         }
     ]
 }
