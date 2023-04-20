@@ -63,9 +63,9 @@
     },
     "MovementCapDefID": "movedef_wasplam",
     "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_wasplam",
-    "PrefabIdentifier": "chrprfmech_wasplambase-001",
-    "PrefabBase": "wasplam",
+    "HardpointDataDefID": "hardpointdatadef_phawklegacylam",
+    "PrefabIdentifier": "chrprfmech_phawklegacylambase-001",
+    "PrefabBase": "phawklegacylam",
     "Tonnage": 30,
     "InitialTonnage": 13.5,
     "weightClass": "LIGHT",
@@ -230,7 +230,9 @@
     ],
     "VariantName": "WSP-100B",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-1.0"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Scout & Disabler",

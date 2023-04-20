@@ -63,9 +63,9 @@
     },
     "MovementCapDefID": "movedef_shadowhawklam",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_shawklam",
-    "PrefabIdentifier": "chrprfmech_shawklambase-001",
-    "PrefabBase": "shawklam",
+    "HardpointDataDefID": "hardpointdatadef_yf24gerwalk",
+    "PrefabIdentifier": "chrprfmech_yf24gerwalkbase-001",
+    "PrefabBase": "yf24gerwalk",
     "Tonnage": 55,
     "InitialTonnage": 29,
     "weightClass": "MEDIUM",
@@ -243,7 +243,9 @@
     ],
     "VariantName": "SHD-X1",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-1.15"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM - RECON",

@@ -87,9 +87,9 @@
         }
     ],
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_phawklam",
-    "PrefabIdentifier": "chrprfmech_phawklambase-001",
-    "PrefabBase": "phawklam",
+    "HardpointDataDefID": "hardpointdatadef_phawklegacylam",
+    "PrefabIdentifier": "chrprfmech_phawklegacylambase-001",
+    "PrefabBase": "phawklegacylam",
     "Tonnage": 50,
     "InitialTonnage": 20,
     "weightClass": "MEDIUM",

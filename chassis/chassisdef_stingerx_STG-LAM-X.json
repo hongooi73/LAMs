@@ -63,9 +63,9 @@
     },
     "MovementCapDefID": "movedef_stingerlam",
     "PathingCapDefID": "pathingdef_light",
-    "HardpointDataDefID": "hardpointdatadef_stingerlam",
-    "PrefabIdentifier": "chrprfmech_stingerlambase-001",
-    "PrefabBase": "stingerlam",
+    "HardpointDataDefID": "hardpointdatadef_phawklegacylam",
+    "PrefabIdentifier": "chrprfmech_phawklegacylambase-001",
+    "PrefabBase": "phawklegacylam",
     "Tonnage": 30,
     "InitialTonnage": 15,
     "weightClass": "LIGHT",
@@ -244,6 +244,7 @@
     "VariantName": "STG-LAM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.0",
             "elite_arsenal"
         ],
         "tagSetSourceFile": ""

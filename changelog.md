@@ -2,6 +2,8 @@
 
 - Reduce the chance of encountering a full lance of LAMs, especially in lower-difficulty missions
 - Elite Word of Blake LAMs (Waneta X/S, Yurei X/S) now mount C3i computers; the ER large laser has been replaced with lighter weapons to compensate
+- Replace original in-game models with better-looking ones, some of which are based on the original Robotech/Macross mecha. Huge props to the modders who created these models!
+
 
 ## v1.1.0
 
