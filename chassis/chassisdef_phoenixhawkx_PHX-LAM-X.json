@@ -9,7 +9,7 @@
         "Id": "chassisdef_phoenixhawkx_PHX-LAM-X",
         "Name": "Phoenix Hawk LAM",
         "Details": "The Phoenix Hawk 1B LAM is a highly advanced 'Mech that was provided only to the SLDF's Royal Divisions. Allied Aerospace reworked their designs, learning from their mistakes with the PHX-HK1.",
-        "Icon": "uixTxrIcon_phawklam"
+        "Icon": "uixTxrIcon_gerwalk"
     },
     "MovementCapDefID": "movedef_phoenixhawklam",
     "FixedEquipment": [

@@ -27,7 +27,7 @@
         "Id": "mechdef_thunderbird_TB-LAM-1",
         "Name": "Thunderbird",
         "Details": "The Thunderbird is a medium LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "simGameMechPartCost": 1000000,
     "Version": 1,

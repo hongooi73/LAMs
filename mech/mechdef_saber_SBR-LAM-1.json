@@ -28,7 +28,7 @@
         "Id": "mechdef_saber_SBR-LAM-1",
         "Name": "Saber",
         "Details": "The Saber is a light LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "simGameMechPartCost": 500000,
     "Version": 1,

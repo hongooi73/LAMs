@@ -59,7 +59,7 @@
         "Id": "chassisdef_lancer_LNC-LAM-1",
         "Name": "Lancer",
         "Details": "The Lancer is a medium LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_shadowcat",
     "PathingCapDefID": "pathingdef_medium",

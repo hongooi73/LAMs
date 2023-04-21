@@ -59,7 +59,7 @@
         "Id": "chassisdef_saber_SBR-LAM-1",
         "Name": "Saber",
         "Details": "The Saber is a light LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_wasplam",
     "PathingCapDefID": "pathingdef_light",

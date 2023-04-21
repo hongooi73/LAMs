@@ -59,7 +59,7 @@
         "Id": "chassisdef_thunderbird_TB-LAM-1",
         "Name": "Thunderbird",
         "Details": "The Thunderbird is a medium LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
     "PathingCapDefID": "pathingdef_medium",

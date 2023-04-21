@@ -59,7 +59,7 @@
         "Id": "chassisdef_blackfalcon_BF-LAM-1",
         "Name": "Black Falcon",
         "Details": "The Black Falcon is a light LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_cougar",
     "PathingCapDefID": "pathingdef_light",

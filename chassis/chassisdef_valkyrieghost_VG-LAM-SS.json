@@ -9,7 +9,7 @@
         "Id": "chassisdef_valkyrieghost_VG-LAM-SS",
         "Name": "Valkyrie Ghost",
         "Details": "The Valkyrie Ghost was meant to be the culmination of the Word of Blake's Spectral LAM series. The only prototype was lost in a pirate raid on the Blakist research facility on Cluff's Stand, along with the blueprints for production.",
-        "Icon": "uixTxrIcon_gerwalk"
+        "Icon": "uixTxrIcon_gerwalk3"
     },
     "MovementCapDefID": "movedef_phoenixhawklam",
     "FixedEquipment": [

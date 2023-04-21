@@ -25,7 +25,7 @@
         "Id": "mechdef_whiteeagle_WE-LAM-1",
         "Name": "White Eagle",
         "Details": "The White Eagle is a medium LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "simGameMechPartCost": 1000000,
     "Version": 1,

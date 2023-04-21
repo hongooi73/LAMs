@@ -59,7 +59,7 @@
         "Id": "chassisdef_firebird_FB-LAM-1",
         "Name": "Firebird",
         "Details": "The Firebird is a light LAM.",
-        "Icon": "uixTxrIcon_genericlam"
+        "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_firestarter_FS9-H",
     "PathingCapDefID": "pathingdef_light",
