@@ -23,7 +23,7 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Thunderbird",
+        "UIName": "Thunderbird TB-LAM-1",
         "Id": "mechdef_thunderbird_TB-LAM-1",
         "Name": "Thunderbird",
         "Details": "The Thunderbird is a medium LAM.",
@@ -109,6 +109,17 @@
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_HyperGauss_HAG20",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,

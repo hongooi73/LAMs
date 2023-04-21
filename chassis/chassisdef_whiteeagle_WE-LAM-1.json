@@ -1,10 +1,35 @@
 {
+    "Description": {
+        "Cost": 4200000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "White Eagle WE-LAM-1",
+        "Id": "chassisdef_whiteeagle_WE-LAM-1",
+        "Name": "White Eagle",
+        "Details": "The White Eagle is a medium LAM.",
+        "Icon": "uixTxrIcon_genericlam"
+    },
+    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "emod_Engine_LAM",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false,
+            "IsFixed": true
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_PartialWing_Generic_Standard50",
+            "SimGameUID": null,
+            "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
@@ -35,43 +60,18 @@
             "prefabName": null,
             "hasPrefabName": false,
             "IsFixed": true
-        },
-        {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_PartialWing_Generic_Standard55",
-            "SimGameUID": null,
-            "ComponentDefType": "JumpJet",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false,
-            "IsFixed": true
         }
     ],
-    "Description": {
-        "Cost": 5200000,
-        "Rarity": 1,
-        "Purchasable": true,
-        "Manufacturer": "",
-        "Model": "",
-        "UIName": "Thunderbird",
-        "Id": "chassisdef_thunderbird_TB-LAM-1",
-        "Name": "Thunderbird",
-        "Details": "The Thunderbird is a medium LAM.",
-        "Icon": "uixTxrIcon_genericlam"
-    },
-    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_switchblade",
-    "PrefabIdentifier": "chrprfmech_switchbladebase-001",
-    "PrefabBase": "switchblade",
-    "Tonnage": 55,
-    "InitialTonnage": 20,
+    "HardpointDataDefID": "hardpointdatadef_vf11lam",
+    "PrefabIdentifier": "chrprfmech_vf11lambase-001",
+    "PrefabBase": "vf11lam",
+    "Tonnage": 50,
+    "InitialTonnage": 18,
     "weightClass": "MEDIUM",
-    "BattleValue": 5171000,
+    "BattleValue": 4596000,
     "Heatsinks": 30,
-    "TopSpeed": 80,
+    "TopSpeed": 120,
     "TurnRadius": 90,
     "MaxJumpjets": 5,
     "Stability": 130,
@@ -89,13 +89,13 @@
     "Signature": 0,
     "Radius": 5,
     "PunchesWithLeftArm": false,
-    "MeleeDamage": 85,
-    "MeleeInstability": 55,
+    "MeleeDamage": 65,
+    "MeleeInstability": 50,
     "MeleeToHitModifier": 0,
-    "DFADamage": 70,
+    "DFADamage": 65,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 70,
-    "DFAInstability": 70,
+    "DFASelfDamage": 65,
+    "DFAInstability": 65,
     "Locations": [
         {
             "Location": "Head",
@@ -116,23 +116,27 @@
                 {
                     "WeaponMount": "Ballistic",
                     "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
                 }
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 90,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
-            "InternalStructure": 45
+            "InternalStructure": 40
         },
         {
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Ballistic",
+                    "WeaponMount": "Energy",
                     "Omni": false
                 },
                 {
@@ -142,50 +146,28 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
         },
         {
             "Location": "CenterTorso",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 180,
-            "MaxRearArmor": 90,
-            "InternalStructure": 90
+            "MaxArmor": 160,
+            "MaxRearArmor": 80,
+            "InternalStructure": 80
         },
         {
             "Location": "RightTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
                     "WeaponMount": "Missile",
                     "Omni": false
                 },
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 130,
-            "MaxRearArmor": 65,
-            "InternalStructure": 65
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
                     "WeaponMount": "Energy",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "Ballistic",
                     "Omni": false
                 },
                 {
@@ -194,28 +176,46 @@
                 }
             ],
             "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 120,
+            "MaxRearArmor": 60,
+            "InternalStructure": 60
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 90,
+            "MaxArmor": 80,
             "MaxRearArmor": -1,
-            "InternalStructure": 45
+            "InternalStructure": 40
         },
         {
             "Location": "LeftLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 60
         },
         {
             "Location": "RightLeg",
             "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 130,
+            "MaxArmor": 120,
             "MaxRearArmor": -1,
-            "InternalStructure": 65
+            "InternalStructure": 60
         }
     ],
     "LOSSourcePositions": [
@@ -226,12 +226,12 @@
         },
         {
             "x": 4,
-            "y": 15,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 15,
+            "y": 14,
             "z": 0
         }
     ],
@@ -243,12 +243,12 @@
         },
         {
             "x": 4,
-            "y": 15,
+            "y": 14,
             "z": 0
         },
         {
             "x": -4,
-            "y": 15,
+            "y": 14,
             "z": 0
         },
         {
@@ -262,13 +262,11 @@
             "z": 2.5
         }
     ],
-    "VariantName": "TB-LAM-1",
+    "VariantName": "WE-LAM-1",
     "ChassisTags": {
-        "items": [
-
-        ],
+        "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "LAM - RECON",
-    "YangsThoughts": "The Thunderbird is a medium LAM."
+    "StockRole": "LAM",
+    "YangsThoughts": "The White Eagle is a medium LAM."
 }
