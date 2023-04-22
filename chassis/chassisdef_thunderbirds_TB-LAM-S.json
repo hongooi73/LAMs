@@ -38,7 +38,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_PartialWing_Generic_Standard45",
+            "ComponentDefID": "Gear_PartialWing_Generic_Standard55",
             "SimGameUID": null,
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
@@ -50,30 +50,30 @@
         }
     ],
     "Description": {
-        "Cost": 7873010,
-        "Rarity": 2,
+        "Cost": 5200000,
+        "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
-        "UIName": "Lancer",
-        "Id": "chassisdef_lancers_LNC-LAM-S",
-        "Name": "Lancer",
-        "Details": "The Lancer is perhaps the least successful of Clan Diamond Shark's LAM designs. A larger version of the Saber, it mounts practically the same weapons and gear as its smaller cousin, adding only two machine guns for close-in protection from infantry. On the upside, it is considerably better armored, although the benefit of this is arguable as the best defense for a LAM is usually to avoid being hit in the first place.",
+        "UIName": "Thunderbird",
+        "Id": "chassisdef_thunderbirds_TB-LAM-S",
+        "Name": "Thunderbird",
+        "Details": "The Thunderbird is the flagship of Clan Diamond Shark's lineup of Land-Air 'Mechs, and demonstrates what can be achieved from infusing this classic form with advanced Clan technology. Mounting a massive Hyper-Assault Gauss rifle backed up by a battery of ER medium lasers, it can demolish foes from beyond the range of most 'Mechs. An integrated Nova CEWS improves tactical awareness.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
-    "MovementCapDefID": "movedef_shadowcat",
+    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
     "PathingCapDefID": "pathingdef_medium",
-    "HardpointDataDefID": "hardpointdatadef_blackowl",
-    "PrefabIdentifier": "chrPrfMech_blackowlbase-001",
-    "PrefabBase": "blackowl",
-    "Tonnage": 45,
-    "InitialTonnage": 19,
+    "HardpointDataDefID": "hardpointdatadef_switchblade",
+    "PrefabIdentifier": "chrprfmech_switchbladebase-001",
+    "PrefabBase": "switchblade",
+    "Tonnage": 55,
+    "InitialTonnage": 18,
     "weightClass": "MEDIUM",
-    "BattleValue": 3749000,
+    "BattleValue": 5171000,
     "Heatsinks": 45,
-    "TopSpeed": 85,
+    "TopSpeed": 80,
     "TurnRadius": 90,
-    "MaxJumpjets": 6,
+    "MaxJumpjets": 5,
     "Stability": 130,
     "StabilityDefenses": [
         0,
@@ -87,21 +87,19 @@
     "VisibilityMultiplier": 1,
     "SensorRangeMultiplier": 1,
     "Signature": 0,
-    "Radius": 4,
-    "PunchesWithLeftArm": true,
-    "MeleeDamage": 45,
-    "MeleeInstability": 12,
+    "Radius": 5,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 85,
+    "MeleeInstability": 55,
     "MeleeToHitModifier": 0,
-    "DFADamage": 45,
+    "DFADamage": 70,
     "DFAToHitModifier": 0,
-    "DFASelfDamage": 45,
-    "DFAInstability": 23,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [
-
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -112,97 +110,8 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 8,
-            "MaxArmor": 70,
-            "MaxRearArmor": -1,
-            "InternalStructure": 35
-        },
-        {
-            "Location": "LeftTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 110,
-            "MaxRearArmor": 55,
-            "InternalStructure": 55
-        },
-        {
-            "Location": "CenterTorso",
-            "Hardpoints": [
-
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 4,
-            "MaxArmor": 140,
-            "MaxRearArmor": 70,
-            "InternalStructure": 70
-        },
-        {
-            "Location": "RightTorso",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
                     "WeaponMount": "Energy",
                     "Omni": false
-                },
-                {
-                    "WeaponMount": "Missile",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-                {
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                }
-            ],
-            "Tonnage": 0,
-            "InventorySlots": 10,
-            "MaxArmor": 110,
-            "MaxRearArmor": 55,
-            "InternalStructure": 55
-        },
-        {
-            "Location": "RightArm",
-            "Hardpoints": [
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
-                },
-                {
-                    "WeaponMount": "Energy",
-                    "Omni": true
                 },
                 {
                     "WeaponMount": "Ballistic",
@@ -211,78 +120,149 @@
             ],
             "Tonnage": 0,
             "InventorySlots": 8,
-            "MaxArmor": 70,
+            "MaxArmor": 90,
             "MaxRearArmor": -1,
-            "InternalStructure": 35
+            "InternalStructure": 45
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 45
         },
         {
             "Location": "LeftLeg",
-            "Hardpoints": [
-
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 110,
+            "MaxArmor": 130,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 65
         },
         {
             "Location": "RightLeg",
-            "Hardpoints": [
-
-            ],
+            "Hardpoints": [],
             "Tonnage": 0,
             "InventorySlots": 4,
-            "MaxArmor": 110,
+            "MaxArmor": 130,
             "MaxRearArmor": -1,
-            "InternalStructure": 55
+            "InternalStructure": 65
         }
     ],
     "LOSSourcePositions": [
         {
             "x": 0,
-            "y": 12.5,
-            "z": 0.5
+            "y": 15,
+            "z": 0
         },
         {
-            "x": -2.5,
-            "y": 11.5,
-            "z": -0.5
+            "x": 4,
+            "y": 15,
+            "z": 0
         },
         {
-            "x": 2.5,
-            "y": 11.5,
-            "z": -0.5
+            "x": -4,
+            "y": 15,
+            "z": 0
         }
     ],
     "LOSTargetPositions": [
         {
             "x": 0,
-            "y": 12.5,
-            "z": 0.5
+            "y": 15,
+            "z": 0
         },
         {
-            "x": -2.5,
-            "y": 11.5,
-            "z": -0.5
+            "x": 4,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": 0
         },
         {
             "x": 2.5,
-            "y": 11.5,
-            "z": -0.5
+            "y": 6,
+            "z": 2.5
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 0.5
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0.5
+            "x": -2.5,
+            "y": 6,
+            "z": 2.5
         }
     ],
-    "VariantName": "LNC-LAM-S",
+    "VariantName": "TB-LAM-S",
     "ChassisTags": {
         "items": [
             "elite_arsenal_s_tier"
@@ -290,6 +270,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM",
-    "YangsThoughts": "The Lancer is perhaps the least successful of Clan Diamond Shark's LAM designs. A larger version of the Saber, it mounts practically the same weapons and gear as its smaller cousin, adding only two machine guns for close-in protection from infantry. On the upside, it is considerably better armored, although the benefit of this is arguable as the best defense for a LAM is usually to avoid being hit in the first place."
+    "YangsThoughts": "The Thunderbird is the flagship of Clan Diamond Shark's lineup of Land-Air 'Mechs, and demonstrates what can be achieved from infusing this classic form with advanced Clan technology. Mounting a massive Hyper-Assault Gauss rifle backed up by a battery of ER medium lasers, it can demolish foes from beyond the range of most 'Mechs. An integrated Nova CEWS improves tactical awareness."
 }
-
