@@ -58,7 +58,7 @@
         "UIName": "Black Falcon",
         "Id": "chassisdef_blackfalcon_BF-LAM-1",
         "Name": "Black Falcon",
-        "Details": "The Black Falcon is Clan Diamond Shark's first foray into the arena of Land-Air 'Mechs. Combining advanced technology from the Clans and the Word of Blake, it is heavily armed for its size, mounting three ER medium lasers, two ATM-3 launchers and an ER small laser. It is slightly less mobile than other LAMs of its size, but this is hardly a significant disadvantage.",
+        "Details": "The Black Falcon is Clan Diamond Shark's first foray into the arena of Land-Air 'Mechs. Combining advanced technology from the Clans and the Word of Blake, it is heavily armed for its size, mounting three ER medium lasers, two ATM-3 launchers and an ER small laser. It is slightly less mobile than other light LAMs, but this is hardly a significant disadvantage.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_cougar",
@@ -270,6 +270,6 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM",
-    "YangsThoughts": "The Black Falcon is Clan Diamond Shark's first foray into the arena of Land-Air 'Mechs. Combining advanced technology from the Clans and the Word of Blake, it is heavily armed for its size, mounting three ER medium lasers, two ATM-3 launchers and an ER small laser. It is slightly less mobile than other LAMs of its size, but this is hardly a significant disadvantage."
+    "YangsThoughts": "The Black Falcon is Clan Diamond Shark's first foray into the arena of Land-Air 'Mechs. Combining advanced technology from the Clans and the Word of Blake, it is heavily armed for its size, mounting three ER medium lasers, two ATM-3 launchers and an ER small laser. It is slightly less mobile than other light LAMs, but this is hardly a significant disadvantage."
 }
 

@@ -58,10 +58,10 @@
         "UIName": "Jaguar",
         "Id": "chassisdef_jaguar_JGR-LAM-1",
         "Name": "Jaguar",
-        "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire ability.",
+        "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin Improved ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire capability.",
         "Icon": "uixTxrIcon_gerwalk5"
     },
-    "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
+    "MovementCapDefID": "movedef_centurion_CN9-A",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_transientlam",
     "PrefabIdentifier": "chrprfmech_transientlambase-001",
@@ -73,7 +73,7 @@
     "Heatsinks": 30,
     "TopSpeed": 80,
     "TurnRadius": 90,
-    "MaxJumpjets": 4,
+    "MaxJumpjets": 3,
     "Stability": 130,
     "StabilityDefenses": [
         0,
@@ -260,5 +260,5 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM",
-    "YangsThoughts": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire ability."
+    "YangsThoughts": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire capability."
 }

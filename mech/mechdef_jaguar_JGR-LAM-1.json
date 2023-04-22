@@ -23,7 +23,7 @@
         "UIName": "Jaguar JGR-LAM-1",
         "Id": "mechdef_jaguar_JGR-LAM-1",
         "Name": "Jaguar",
-        "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire ability.",
+        "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire capability.",
         "Icon": "uixTxrIcon_gerwalk5"
     },
     "simGameMechPartCost": 620000,
@@ -116,7 +116,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_ATM12",
+            "ComponentDefID": "Weapon_ATM_IATM12_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -127,7 +127,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_ATM12",
+            "ComponentDefID": "Weapon_ATM_IATM12_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
