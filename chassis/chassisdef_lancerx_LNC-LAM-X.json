@@ -64,7 +64,7 @@
     "MovementCapDefID": "movedef_shadowcat",
     "PathingCapDefID": "pathingdef_medium",
     "HardpointDataDefID": "hardpointdatadef_blackowl",
-    "PrefabIdentifier": "chrPrfMech_blackowlbase-001",
+    "PrefabIdentifier": "chrprfmech_blackowlbase-001",
     "PrefabBase": "blackowl",
     "Tonnage": 45,
     "InitialTonnage": 22,
