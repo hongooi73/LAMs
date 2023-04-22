@@ -15,7 +15,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_blackfalcon_BF-LAM-1",
+    "ChassisID": "chassisdef_blackfalconx_BF-LAM-X",
     "HeraldryID": null,
     "Description": {
         "Cost": 4200000,
@@ -23,9 +23,9 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Black Falcon BF-LAM-1",
-        "Id": "mechdef_blackfalcon_BF-LAM-1",
-        "Name": "Black Falcon",
+        "UIName": "Black Falcon X",
+        "Id": "mechdef_blackfalconx_BF-LAM-X",
+        "Name": "Black Falcon X",
         "Details": "The Black Falcon is Clan Diamond Shark's first foray into the arena of Land-Air 'Mechs. Combining advanced technology from the Clans and the Word of Blake, it is heavily armed for its size, mounting three ER medium lasers, two ATM-3 launchers and an ER small laser. It is slightly less mobile than other light LAMs, but this is hardly a significant disadvantage.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
@@ -107,8 +107,19 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -119,7 +130,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -130,7 +141,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -141,7 +152,18 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -152,7 +174,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_ATM3",
+            "ComponentDefID": "Weapon_LRM_ATM3_CLAN_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -163,7 +185,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_ATM3",
+            "ComponentDefID": "Weapon_LRM_ATM3_CLAN_2",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -217,19 +239,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-            "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -240,7 +251,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -251,7 +262,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
