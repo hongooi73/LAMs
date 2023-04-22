@@ -1,7 +1,7 @@
 {
     "MechTags": {
         "items": [
-            "unit_mech",
+            "unit_mech_s_tier",
             "unit_light",
             "unit_jumpOK",
             "unit_range_short",
@@ -11,7 +11,9 @@
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_release",
-            "unit_lam"
+            "unit_lam",
+            "elite_arsenal",
+            "elite_arsenal_s_tier"
         ],
         "tagSetSourceFile": ""
     },

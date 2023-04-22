@@ -8,11 +8,12 @@
             "unit_lance_assassin",
             "unit_indirectFire",
             "unit_jumpOK",
-            "unit_lam"
+            "unit_lam",
+            "elite_arsenal"
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_jaguar_JGR-LAM-1",
+    "ChassisID": "chassisdef_jaguarx_JGR-LAM-X",
     "HeraldryID": null,
     "Description": {
         "Cost": 6240000,
@@ -20,9 +21,9 @@
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Jaguar JGR-LAM-1",
-        "Id": "mechdef_jaguar_JGR-LAM-1",
-        "Name": "Jaguar",
+        "UIName": "Jaguar X",
+        "Id": "mechdef_jaguarx_JGR-LAM-X",
+        "Name": "Jaguar X",
         "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire capability.",
         "Icon": "uixTxrIcon_gerwalk5"
     },
@@ -105,7 +106,7 @@
     "inventory": [
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_1",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -116,7 +117,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_ATM_IATM12_0-STOCK",
+            "ComponentDefID": "Weapon_ATM_IATM12_1",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -127,7 +128,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_ATM_IATM12_0-STOCK",
+            "ComponentDefID": "Weapon_ATM_IATM12_1",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -160,7 +161,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -171,7 +172,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
             "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
