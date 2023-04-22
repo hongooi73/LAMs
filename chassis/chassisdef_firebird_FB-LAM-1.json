@@ -58,7 +58,7 @@
         "UIName": "Firebird",
         "Id": "chassisdef_firebird_FB-LAM-1",
         "Name": "Firebird",
-        "Details": "The Firebird is a light LAM.",
+        "Details": "The Firebird is designed to be a jack-of-all-trades light LAM, combining speed, firepower and protection in equal measure. Its four ER medium lasers and two machine guns let it easily deal with foes its own size, while the mobility inherent to the LAM platform allows it to escape from anything it can't kill. Its excessive price tag is the only thing that has kept it from becoming Clan Diamond Shark's top-selling 'Mech.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_firestarter_FS9-H",
@@ -269,7 +269,7 @@
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Fast Skirmisher",
-    "YangsThoughts": "The Firebird is a light LAM."
+    "StockRole": "LAM",
+    "YangsThoughts": "The Firebird is designed to be a jack-of-all-trades light LAM, combining speed, firepower and protection in equal measure. Its four ER medium lasers and two machine guns let it easily deal with foes its own size, while the mobility inherent to the LAM platform allows it to escape from anything it can't kill. Its excessive price tag is the only thing that has kept it from becoming Clan Diamond Shark's top-selling 'Mech."
 }
 

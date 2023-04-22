@@ -6,14 +6,8 @@
             "unit_medium",
             "unit_ready",
             "unit_lance_assassin",
-            "unit_role_brawler",
-            "unit_range_short",
+            "unit_indirectFire",
             "unit_jumpOK",
-            "unit_armor_low",
-            "unit_role_scout",
-            "unit_role_sniper",
-            "unit_role_flanker",
-            "unit_very_rare",
             "unit_lam"
         ],
         "tagSetSourceFile": ""
@@ -29,7 +23,7 @@
         "UIName": "Jaguar JGR-LAM-1",
         "Id": "mechdef_jaguar_JGR-LAM-1",
         "Name": "Jaguar",
-        "Details": "The Jaguar is a medium LAM.",
+        "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire ability.",
         "Icon": "uixTxrIcon_gerwalk5"
     },
     "simGameMechPartCost": 620000,

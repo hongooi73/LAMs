@@ -58,7 +58,7 @@
         "UIName": "Jaguar",
         "Id": "chassisdef_jaguar_JGR-LAM-1",
         "Name": "Jaguar",
-        "Details": "The Waneta carried an array of Clan weaponry, although whether this represented salvage, black market purchases, indigenous manufacturing or some other source of supply hadn't been identified by the time the design became extinct. The Waneta's long-range weaponry consisted of a single ER Large Laser and two LRM 15 systems; augmenting this weapons array was a single ER Small Laser.",
+        "Details": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire ability.",
         "Icon": "uixTxrIcon_gerwalk5"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -259,6 +259,6 @@
         "items": [],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Striker Cavalry",
-    "YangsThoughts": "The Jaguar is a medium LAM."
+    "StockRole": "LAM",
+    "YangsThoughts": "Designed by Clan Diamond Shark for an unnamed customer, the Jaguar is an oddity: a LAM intended to be a missile platform. Twin ATM-12 launchers give it long-range firepower equivalent to a heavy 'Mech, although its secondary armament is scanty at only one ER medium laser. It is also relatively slow for a LAM, so a smart pilot will stay at a distance and take advantage of its indirect fire ability."
 }

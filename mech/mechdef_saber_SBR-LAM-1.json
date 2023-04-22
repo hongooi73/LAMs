@@ -27,7 +27,7 @@
         "UIName": "Saber SBR-LAM-1",
         "Id": "mechdef_saber_SBR-LAM-1",
         "Name": "Saber",
-        "Details": "The Saber is a light LAM.",
+        "Details": "An advanced design from Clan Diamond Shark, the Saber is optimized for the recon and spotting role. An active probe allows it to reveal hidden enemies from a distance, and its mobility matches or exceeds that of any other LAM. Its armament of two ER medium pulse lasers and two Streak SRM-2 launchers is relatively light by Clan standards, but heavy for a LAM.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
     "simGameMechPartCost": 500000,

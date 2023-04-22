@@ -24,7 +24,7 @@
         "UIName": "White Eagle WE-LAM-1",
         "Id": "mechdef_whiteeagle_WE-LAM-1",
         "Name": "White Eagle",
-        "Details": "The White Eagle is a medium LAM.",
+        "Details": "Part of the first generation of LAMs from Clan Diamond Shark, the White Eagle is essentially an upsized Black Falcon. Increasing the tonnage to 50 tons allows the ATM launchers to be upgraded to ATM6s, while the ER medium lasers are supplemented by an ER large laser. A Clan-spec Guardian ECM pod makes the White Eagle nigh-untouchable in combat.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
     "simGameMechPartCost": 1000000,

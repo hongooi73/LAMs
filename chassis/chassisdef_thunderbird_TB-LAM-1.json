@@ -58,7 +58,7 @@
         "UIName": "Thunderbird",
         "Id": "chassisdef_thunderbird_TB-LAM-1",
         "Name": "Thunderbird",
-        "Details": "The Thunderbird is a medium LAM.",
+        "Details": "The Thunderbird is the flagship of Clan Diamond Shark's lineup of Land-Air 'Mechs, and demonstrates what can be achieved from infusing this classic form with advanced Clan technology. Mounting a massive Hyper-Assault Gauss rifle backed up by a battery of ER medium lasers, it can demolish foes from beyond the range of most 'Mechs. An integrated Nova CEWS improves tactical awareness.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
     "MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -269,6 +269,6 @@
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "LAM - RECON",
-    "YangsThoughts": "The Thunderbird is a medium LAM."
+    "StockRole": "LAM",
+    "YangsThoughts": "The Thunderbird is the flagship of Clan Diamond Shark's lineup of Land-Air 'Mechs, and demonstrates what can be achieved from infusing this classic form with advanced Clan technology. Mounting a massive Hyper-Assault Gauss rifle backed up by a battery of ER medium lasers, it can demolish foes from beyond the range of most 'Mechs. An integrated Nova CEWS improves tactical awareness."
 }

@@ -22,7 +22,7 @@
         "UIName": "Lancer LNC-LAM-1",
         "Id": "mechdef_lancer_LNC-LAM-1",
         "Name": "Lancer",
-        "Details": "The Lancer is a medium LAM.",
+        "Details": "The Lancer is perhaps the least successful of Clan Diamond Shark's LAM designs. A larger version of the Saber, it mounts practically the same weapons and gear as its smaller cousin, adding only two machine guns for close-in protection from infantry. On the upside, it is considerably better armored, although the benefit of this is arguable as the best defense for a LAM is usually to avoid being hit in the first place.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
     "simGameMechPartCost": 2500000,

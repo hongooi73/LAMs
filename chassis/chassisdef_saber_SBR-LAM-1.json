@@ -58,10 +58,10 @@
         "UIName": "Saber",
         "Id": "chassisdef_saber_SBR-LAM-1",
         "Name": "Saber",
-        "Details": "The Saber is a light LAM.",
+        "Details": "An advanced design from Clan Diamond Shark, the Saber is optimized for the recon and spotting role. An active probe allows it to reveal hidden enemies from a distance, and its mobility matches or exceeds that of any other LAM. Its armament of two ER medium pulse lasers and two Streak SRM-2 launchers is relatively light by Clan standards, but heavy for a LAM.",
         "Icon": "uixTxrIcon_gerwalk2"
     },
-    "MovementCapDefID": "movedef_wasplam",
+    "MovementCapDefID": "movedef_wasp_WSP-1A",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_blackowl",
     "PrefabIdentifier": "chrprfmech_blackowlbase-001",
@@ -257,6 +257,6 @@
         ],
         "tagSetSourceFile": ""
     },
-    "StockRole": "Scout & Disabler",
-    "YangsThoughts": "The Saber is a light LAM."
+    "StockRole": "LAM",
+    "YangsThoughts": "An advanced design from Clan Diamond Shark, the Saber is optimized for the recon and spotting role. An active probe allows it to reveal hidden enemies from a distance, and its mobility matches or exceeds that of any other LAM. Its armament of two ER medium pulse lasers and two Streak SRM-2 launchers is relatively light by Clan standards, but heavy for a LAM."
 }

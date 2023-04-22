@@ -115,7 +115,7 @@
     "PrefabIdentifier": "chrprfmech_vfwargerwalkbase-001",
     "PrefabBase": "vfwargerwalk",
     "Tonnage": 50,
-    "InitialTonnage": 12,
+    "InitialTonnage": 11,
     "weightClass": "MEDIUM",
     "BattleValue": 4596000,
     "Heatsinks": 45,
