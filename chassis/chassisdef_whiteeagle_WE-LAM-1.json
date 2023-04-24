@@ -264,7 +264,9 @@
     ],
     "VariantName": "WE-LAM-1",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-1.12"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "LAM",

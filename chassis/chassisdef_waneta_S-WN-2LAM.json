@@ -251,7 +251,9 @@
     ],
     "VariantName": "S-WN-2LAM",
     "ChassisTags": {
-        "items": [],
+        "items": [
+            "mr-resize-1.12"
+        ],
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker Cavalry",

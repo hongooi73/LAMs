@@ -265,6 +265,7 @@
     "VariantName": "WE-LAM-X",
     "ChassisTags": {
         "items": [
+            "mr-resize-1.12",
             "elite_arsenal"
         ],
         "tagSetSourceFile": ""

@@ -265,7 +265,7 @@
     "VariantName": "TB-LAM-1",
     "ChassisTags": {
         "items": [
-
+            "mr-resize-1.12"
         ],
         "tagSetSourceFile": ""
     },
