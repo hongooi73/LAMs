@@ -210,7 +210,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
-
+                    "wordofblake_s_tier"
                 ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },

@@ -217,6 +217,7 @@
             },
             "excludedUnitTagSet": {
                 "items": [
+                    "wordofblake_s_tier",
                     "unit_noncombatant",
                     "unit_urbie"
                 ],
