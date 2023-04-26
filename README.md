@@ -2,32 +2,27 @@
 
 Add Land-Air Mechs (LAMs) to Expanded Arsenal/Elite Arsenal. LAMs are fast, agile and highly maneuverable, but also relatively fragile. Keep them alive, and they can devastate the enemy with pinpoint strikes far from the frontline.
 
-This mod adds the following LAMs to the game:
+This mod adds the following LAMs to the game. All have X- and S-tier variants, and can appear in low-to-mid-skull contracts.
 
-- Phoenix Hawk LAM PHX-HK1
-- Shadow Hawk LAM SHD-X1
-- Shadow Hawk LAM SHD-X2
-- Stinger LAM STG-A1
-- Waneta S-WN-2LAM
-- Wasp LAM WSP-100B
-- Yurei S-YR-1LAM
-- Phoenix Hawk LAM X PHX-LAM-X
-- Phoenix Hawk LAM S PHX-LAM-S
-- Shadow Hawk LAM X SHD-LAM-X
-- Shadow Hawk LAM S SHD-LAM-S
-- Stinger LAM X STG-LAM-X
-- Stinger LAM S STG-LAM-S
-- Waneta X WN-LAM-X
-- Waneta S WN-LAM-S
-- Wasp LAM X WSP-LAM-X
-- Wasp LAM S WSP-LAM-S
-- Yurei X YR-LAM-X
-- Yurei S YR-LAM-S
+- Inner Sphere designs, based on canon:
+  - Phoenix Hawk LAM PHX-HK1
+  - Shadow Hawk LAM SHD-X1
+  - Shadow Hawk LAM SHD-X2
+  - Stinger LAM STG-A1
+  - Waneta S-WN-2LAM
+  - Wasp LAM WSP-100B
+  - Yurei S-YR-1LAM
 
-The S-tier variants are only found in the elite missions from Elite Arsenal.
+- Clan designs, original to EA and the handiwork of Clan Diamond Shark:
+  - Black Falcon BF-LAM-1
+  - Firebird FB-LAM-1
+  - Jaguar JGR-LAM-1
+  - Lancer LNC-LAM-1
+  - Saber SBR-LAM-1
+  - Thunderbird TB-LAM-1
+  - White Eagle WE-LAM-1
 
-This mod requires Elite Arsenal. It can be enabled and disabled at will; if you disable it, any LAMs in your inventory will remain functional but you won't meet any more LAMs until it is re-enabled.
-
+In addition, this mod includes a 3-skull flashpoint that is unlocked after completing the first few elite flashpoints in Elite Arsenal. A Word of Blake resource extraction operation on an unclaimed world leads to a secret facility, where a powerful mech is located. Completing the flashpoint will allow the Clan designs above to spawn in missions, and reward you with a unique capstone LAM!
 
 ## Implementation details
 
@@ -44,7 +39,10 @@ Because of streamlining and weight constraints, a LAM cannot make use of Elite A
 
 LAMs are thus extremely agile and evasive, but cannot take sustained punishment like regular mechs.
 
+## Prerequisites
+
+This mod requires Elite Arsenal. It can be enabled and disabled at will; if you disable it, any LAMs in your inventory will remain functional but you won't meet any more LAMs until it is re-enabled.
 
 ## Credits
 
-Most of these mechs were originally from Vanilla Plus. Waneta and Yurei tabletop conversion and elite variants by Belbarid. Final revisions and balancing by hongooi73.
+The Inner Sphere mechs were originally from Vanilla Plus. Waneta and Yurei tabletop conversion and elite variants by Belbarid. Final revisions and balancing by hongooi73.
