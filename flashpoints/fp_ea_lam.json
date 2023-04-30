@@ -15,7 +15,6 @@
             "RequirementTags" : {
                 "tagSetSourceFile" : "",
                 "items" : [
-                    "flashpoint_ea_7_1_complete",
                     "flashpoint_ea_7_2_complete"
                 ]
             },
