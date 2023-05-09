@@ -1,3 +1,7 @@
+## v2.0.1
+
+- Fix bug in Jaguar S chassisdef
+
 ## v2.0.0
 
 Version 2.0 replaces the original in-game models with better-looking ones, based on the original Robotech/Macross mecha. Huge props to the modders who created these models!
