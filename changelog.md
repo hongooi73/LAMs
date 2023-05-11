@@ -1,6 +1,7 @@
 ## v2.0.1
 
 - Fix bug in Jaguar S chassisdef
+- Fix spawn restrictions for some Clan mechs (should only appear after completing the flashpoint)
 
 ## v2.0.0
 

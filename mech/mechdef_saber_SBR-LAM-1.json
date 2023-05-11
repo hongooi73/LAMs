@@ -217,6 +217,12 @@
             "prefabName": null,
             "hasPrefabName": false
         }
-    ]
+    ],
+    "RequiredToSpawnCompanyTags" : {
+        "items" : [
+            "flashpoint_ea_lam_complete"
+        ],
+        "tagSetSourceFile" : ""
+    }
 }
 
